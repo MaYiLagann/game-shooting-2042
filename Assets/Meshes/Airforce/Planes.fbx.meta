@@ -1,0 +1,1691 @@
+fileFormatVersion: 2
+guid: 3c9a2bcef4a8b584cbe8ea5eca15f0d7
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Airport 1 - 1
+    100002: Airport 1 - 2
+    100004: Airport 1 - 3
+    100006: Airport 1 - 4
+    100008: Airport 1 - 5
+    100010: Airport 2
+    100012: Airport 3
+    100014: Apache Helicopter 1
+    100016: Apache Helicopter 10
+    100018: Apache Helicopter 14
+    100020: Apache Helicopter 15
+    100022: Apache Helicopter 16
+    100024: Apache Helicopter 17
+    100026: Apache Helicopter 18
+    100028: Apache Helicopter 19
+    100030: Apache Helicopter 2
+    100032: Apache Helicopter 20
+    100034: Apache Helicopter 21
+    100036: Apache Helicopter 23
+    100038: Apache Helicopter 24
+    100040: Apache Helicopter 26
+    100042: Apache Helicopter 28
+    100044: Apache Helicopter 4
+    100046: Apache Helicopter 5
+    100048: Apache Helicopter 7
+    100050: Apache Helicopter 8
+    100052: Apache Helicopter 9
+    100054: Boeing C17 10
+    100056: Boeing C17 11
+    100058: Boeing C17 12
+    100060: Boeing C17 13
+    100062: Boeing C17 14
+    100064: Boeing C17 15
+    100066: Boeing C17 16
+    100068: Boeing C17 17
+    100070: Boeing C17 3
+    100072: Boeing C17 4
+    100074: Box
+    100076: Chinook 1
+    100078: Chinook 11
+    100080: Chinook 12
+    100082: Chinook 13
+    100084: Chinook 14
+    100086: Chinook 15
+    100088: Chinook 4
+    100090: Chinook 5
+    100092: Chinook 6
+    100094: Chinook 7
+    100096: Chinook 8
+    100098: Concrete Pipe
+    100100: Container 1
+    100102: Container 2
+    100104: Container 3
+    100106: Cube
+    100108: Cube.001
+    100110: Cube.002
+    100112: Cube.003
+    100114: Cube.004
+    100116: Cube.045
+    100118: Cube.046
+    100120: Cube.049
+    100122: Cube.059
+    100124: Cube.060
+    100126: Cube.063
+    100128: Cube.064
+    100130: Cube.065
+    100132: Cube.066
+    100134: Cube.067
+    100136: Cube.068
+    100138: Cube.069
+    100140: Cube.070
+    100142: Cube.085
+    100144: Cube.086
+    100146: Cube.087
+    100148: Cube.128
+    100150: Cube.129
+    100152: Cube.130
+    100154: Cube.133
+    100156: Cube.135
+    100158: Cube.136
+    100160: Cube.137
+    100162: Cube.138
+    100164: Cube.142
+    100166: Cube.159
+    100168: Cube.196
+    100170: Cube.197
+    100172: Cube.198
+    100174: Cylinder.001
+    100176: Cylinder.002
+    100178: Cylinder.003
+    100180: Cylinder.004
+    100182: Cylinder.005
+    100184: Cylinder.006
+    100186: Cylinder.007
+    100188: Cylinder.008
+    100190: Cylinder.009
+    100192: Cylinder.043
+    100194: Cylinder.050
+    100196: Cylinder.051
+    100198: Cylinder.063
+    100200: Cylinder.071
+    100202: Cylinder.073
+    100204: Cylinder.074
+    100206: Cylinder.075
+    100208: Cylinder.101
+    100210: Cylinder.102
+    100212: Cylinder.103
+    100214: Cylinder.105
+    100216: F-16 2
+    100218: F-16 3
+    100220: F-16 4
+    100222: F-16 5
+    100224: F-16 6
+    100226: F-22 Raptor 10
+    100228: F-22 Raptor 2
+    100230: F-22 Raptor 2.001
+    100232: F-22 Raptor 3
+    100234: F-22 Raptor 4
+    100236: F-22 Raptor 5
+    100238: F-22 Raptor 6
+    100240: F-22 Raptor 8
+    100242: F-22 Raptor 9
+    100244: F35 Lightning 2 1
+    100246: F35 Lightning 2 2
+    100248: F35 Lightning 2 3
+    100250: F35 Lightning 2 4
+    100252: F35 Lightning 2 5
+    100254: F35 Lightning 2 6
+    100256: F35 Lightning 2 7
+    100258: F35 Lightning 2 8
+    100260: Fence
+    100262: Fence Pole
+    100264: Fence.001
+    100266: Fence.003
+    100268: Fence.004
+    100270: Flag 1
+    100272: Flag 1.001
+    100274: Flag 1.002
+    100276: Flag 2
+    100278: Flag 2.001
+    100280: Flag 2.002
+    100282: Gates 1
+    100284: Gates 2
+    100286: Gates 3
+    100288: Hangar
+    100290: Helipad
+    100292: Jet Area
+    100294: Jet Area.001
+    100296: Kamov KA-50/KA-52 - 1
+    100298: Kamov KA-50/KA-52 1
+    100300: Kamov KA-50/KA-52 1.001
+    100302: Kamov KA-50/KA-52 16
+    100304: Kamov KA-50/KA-52 17
+    100306: Kamov KA-50/KA-52 18
+    100308: Kamov KA-50/KA-52 19
+    100310: Kamov KA-50/KA-52 20
+    100312: Kamov KA-50/KA-52 21
+    100314: Kamov KA-50/KA-52 21.001
+    100316: Kamov KA-50/KA-52 23
+    100318: Kamov KA-50/KA-52 6
+    100320: Kamov KA-50/KA-52 7
+    100322: Kratos XQ-58A Valkyrie Drone 1
+    100324: Kratos XQ-58A Valkyrie Drone 2
+    100326: Kratos XQ-58A Valkyrie Drone 4
+    100328: Kratos XQ-58A Valkyrie Drone 5
+    100330: Kratos XQ-58A Valkyrie Drone 6
+    100332: Kratos XQ-58A Valkyrie Drone 7
+    100334: Kratos XQ-58A Valkyrie Drone 8
+    100336: Kratos XQ-58A Valkyrie Drone 9
+    100338: Loud Speaker 1
+    100340: Loud Speaker 2
+    100342: Military Truck 1
+    100344: Military Truck 10
+    100346: Military Truck 11
+    100348: Military Truck 12
+    100350: Military Truck 13
+    100352: Military Truck 14
+    100354: Military Truck 15
+    100356: Military Truck 16
+    100358: Military Truck 17
+    100360: Military Truck 18
+    100362: Military Truck 19
+    100364: Military Truck 2
+    100366: Military Truck 20
+    100368: Military Truck 21
+    100370: Military Truck 22
+    100372: Military Truck 23
+    100374: Military Truck 24
+    100376: Military Truck 3
+    100378: Military Truck 4
+    100380: Military Truck 5
+    100382: Military Truck 6
+    100384: Military Truck 7
+    100386: Military Truck 8
+    100388: Military Truck 9
+    100390: Northrop Grumman B-21 Raider 1
+    100392: Northrop Grumman B-21 Raider 3
+    100394: Open Fence
+    100396: Plane
+    100398: //RootNode
+    100400: Predator C Avenger Drone 1
+    100402: Predator C Avenger Drone 2
+    100404: Predator C Avenger Drone 2.001
+    100406: Predator C Avenger Drone 3
+    100408: Predator C Avenger Drone 4
+    100410: Predator C Avenger Drone 5
+    100412: Predator C Avenger Drone 6
+    100414: Predator C Avenger Drone 7
+    100416: Prop 1
+    100418: Prop 2
+    100420: Rafale 10
+    100422: Rafale 11
+    100424: Rafale 12
+    100426: Rafale 13
+    100428: Rafale 14
+    100430: Rafale 15
+    100432: Rafale 16
+    100434: Rafale 17
+    100436: Rafale 18
+    100438: Rafale 3
+    100440: Rafale 4
+    100442: Rafale 6
+    100444: Rafale 7
+    100446: Road Tile
+    100448: Rock 1
+    100450: Rock 2
+    100452: Rock 3
+    100454: Runway
+    100456: Safe Area
+    100458: Sikorsky S-64 Skycrane  1
+    100460: Sikorsky S-64 Skycrane  10
+    100462: Sikorsky S-64 Skycrane  11
+    100464: Sikorsky S-64 Skycrane  12
+    100466: Sikorsky S-64 Skycrane  13
+    100468: Sikorsky S-64 Skycrane  14
+    100470: Sikorsky S-64 Skycrane  15
+    100472: Sikorsky S-64 Skycrane  16
+    100474: Sikorsky S-64 Skycrane  17
+    100476: Sikorsky S-64 Skycrane  18
+    100478: Sikorsky S-64 Skycrane  19
+    100480: Sikorsky S-64 Skycrane  2
+    100482: Sikorsky S-64 Skycrane  20
+    100484: Sikorsky S-64 Skycrane  21
+    100486: Sikorsky S-64 Skycrane  22
+    100488: Sikorsky S-64 Skycrane  23
+    100490: Sikorsky S-64 Skycrane  3
+    100492: Sikorsky S-64 Skycrane  4
+    100494: Sikorsky S-64 Skycrane  5
+    100496: Sikorsky S-64 Skycrane  6
+    100498: Sikorsky S-64 Skycrane  7
+    100500: Sikorsky S-64 Skycrane  8
+    100502: Sikorsky S-64 Skycrane  9
+    100504: Small Helipad
+    100506: Sukhoi SU-35 1
+    100508: Sukhoi SU-35 10
+    100510: Sukhoi SU-35 11
+    100512: Sukhoi SU-35 12
+    100514: Sukhoi SU-35 13
+    100516: Sukhoi SU-35 14
+    100518: Sukhoi SU-35 15
+    100520: Sukhoi SU-35 16
+    100522: Sukhoi SU-35 17
+    100524: Sukhoi SU-35 4
+    100526: Sukhoi SU-35 5
+    100528: Sukhoi SU-35 6
+    100530: Sukhoi SU-35 6.001
+    100532: Sukhoi SU-35 6.002
+    100534: Sukhoi SU-35 9
+    100536: Sukhoi SU-57 1
+    100538: Sukhoi SU-57 10
+    100540: Sukhoi SU-57 11
+    100542: Sukhoi SU-57 12
+    100544: Sukhoi SU-57 13
+    100546: Sukhoi SU-57 2
+    100548: Sukhoi SU-57 3
+    100550: Sukhoi SU-57 6
+    100552: Sukhoi SU-57 7
+    100554: Sukhoi SU-57 8
+    100556: Sukhoi SU-57 9
+    100558: Tent
+    100560: Tree 1
+    100562: Tree 2
+    100564: Tree 3
+    100566: Turret 1 - 1
+    100568: Turret 1 - 2
+    100570: Turret 1 - 3
+    100572: Turret 1 - 4
+    100574: Turret 1 - 5
+    100576: Turret 1 - 6
+    100578: Turret 1 - 7
+    100580: Turret 1 - 8
+    100582: Turret 2 - 1
+    100584: Turret 2 - 2
+    100586: Turret 2 - 3
+    100588: Turret 2 - 4
+    100590: Turret 2 - 5
+    100592: Turret 2 - 6
+    100594: Turret 3 - 1
+    100596: Turret 3 - 10
+    100598: Turret 3 - 11
+    100600: Turret 3 - 2
+    100602: Turret 3 - 3
+    100604: Turret 3 - 4
+    100606: Turret 3 - 5
+    100608: Turret 3 - 6
+    100610: Turret 3 - 7
+    100612: Turret 3 - 8
+    100614: Turret 3 - 9
+    100616: Valley
+    100618: Wall
+    100620: Watch Gate
+    100622: Watch Tower 2
+    400000: Airport 1 - 1
+    400002: Airport 1 - 2
+    400004: Airport 1 - 3
+    400006: Airport 1 - 4
+    400008: Airport 1 - 5
+    400010: Airport 2
+    400012: Airport 3
+    400014: Apache Helicopter 1
+    400016: Apache Helicopter 10
+    400018: Apache Helicopter 14
+    400020: Apache Helicopter 15
+    400022: Apache Helicopter 16
+    400024: Apache Helicopter 17
+    400026: Apache Helicopter 18
+    400028: Apache Helicopter 19
+    400030: Apache Helicopter 2
+    400032: Apache Helicopter 20
+    400034: Apache Helicopter 21
+    400036: Apache Helicopter 23
+    400038: Apache Helicopter 24
+    400040: Apache Helicopter 26
+    400042: Apache Helicopter 28
+    400044: Apache Helicopter 4
+    400046: Apache Helicopter 5
+    400048: Apache Helicopter 7
+    400050: Apache Helicopter 8
+    400052: Apache Helicopter 9
+    400054: Boeing C17 10
+    400056: Boeing C17 11
+    400058: Boeing C17 12
+    400060: Boeing C17 13
+    400062: Boeing C17 14
+    400064: Boeing C17 15
+    400066: Boeing C17 16
+    400068: Boeing C17 17
+    400070: Boeing C17 3
+    400072: Boeing C17 4
+    400074: Box
+    400076: Chinook 1
+    400078: Chinook 11
+    400080: Chinook 12
+    400082: Chinook 13
+    400084: Chinook 14
+    400086: Chinook 15
+    400088: Chinook 4
+    400090: Chinook 5
+    400092: Chinook 6
+    400094: Chinook 7
+    400096: Chinook 8
+    400098: Concrete Pipe
+    400100: Container 1
+    400102: Container 2
+    400104: Container 3
+    400106: Cube
+    400108: Cube.001
+    400110: Cube.002
+    400112: Cube.003
+    400114: Cube.004
+    400116: Cube.045
+    400118: Cube.046
+    400120: Cube.049
+    400122: Cube.059
+    400124: Cube.060
+    400126: Cube.063
+    400128: Cube.064
+    400130: Cube.065
+    400132: Cube.066
+    400134: Cube.067
+    400136: Cube.068
+    400138: Cube.069
+    400140: Cube.070
+    400142: Cube.085
+    400144: Cube.086
+    400146: Cube.087
+    400148: Cube.128
+    400150: Cube.129
+    400152: Cube.130
+    400154: Cube.133
+    400156: Cube.135
+    400158: Cube.136
+    400160: Cube.137
+    400162: Cube.138
+    400164: Cube.142
+    400166: Cube.159
+    400168: Cube.196
+    400170: Cube.197
+    400172: Cube.198
+    400174: Cylinder.001
+    400176: Cylinder.002
+    400178: Cylinder.003
+    400180: Cylinder.004
+    400182: Cylinder.005
+    400184: Cylinder.006
+    400186: Cylinder.007
+    400188: Cylinder.008
+    400190: Cylinder.009
+    400192: Cylinder.043
+    400194: Cylinder.050
+    400196: Cylinder.051
+    400198: Cylinder.063
+    400200: Cylinder.071
+    400202: Cylinder.073
+    400204: Cylinder.074
+    400206: Cylinder.075
+    400208: Cylinder.101
+    400210: Cylinder.102
+    400212: Cylinder.103
+    400214: Cylinder.105
+    400216: F-16 2
+    400218: F-16 3
+    400220: F-16 4
+    400222: F-16 5
+    400224: F-16 6
+    400226: F-22 Raptor 10
+    400228: F-22 Raptor 2
+    400230: F-22 Raptor 2.001
+    400232: F-22 Raptor 3
+    400234: F-22 Raptor 4
+    400236: F-22 Raptor 5
+    400238: F-22 Raptor 6
+    400240: F-22 Raptor 8
+    400242: F-22 Raptor 9
+    400244: F35 Lightning 2 1
+    400246: F35 Lightning 2 2
+    400248: F35 Lightning 2 3
+    400250: F35 Lightning 2 4
+    400252: F35 Lightning 2 5
+    400254: F35 Lightning 2 6
+    400256: F35 Lightning 2 7
+    400258: F35 Lightning 2 8
+    400260: Fence
+    400262: Fence Pole
+    400264: Fence.001
+    400266: Fence.003
+    400268: Fence.004
+    400270: Flag 1
+    400272: Flag 1.001
+    400274: Flag 1.002
+    400276: Flag 2
+    400278: Flag 2.001
+    400280: Flag 2.002
+    400282: Gates 1
+    400284: Gates 2
+    400286: Gates 3
+    400288: Hangar
+    400290: Helipad
+    400292: Jet Area
+    400294: Jet Area.001
+    400296: Kamov KA-50/KA-52 - 1
+    400298: Kamov KA-50/KA-52 1
+    400300: Kamov KA-50/KA-52 1.001
+    400302: Kamov KA-50/KA-52 16
+    400304: Kamov KA-50/KA-52 17
+    400306: Kamov KA-50/KA-52 18
+    400308: Kamov KA-50/KA-52 19
+    400310: Kamov KA-50/KA-52 20
+    400312: Kamov KA-50/KA-52 21
+    400314: Kamov KA-50/KA-52 21.001
+    400316: Kamov KA-50/KA-52 23
+    400318: Kamov KA-50/KA-52 6
+    400320: Kamov KA-50/KA-52 7
+    400322: Kratos XQ-58A Valkyrie Drone 1
+    400324: Kratos XQ-58A Valkyrie Drone 2
+    400326: Kratos XQ-58A Valkyrie Drone 4
+    400328: Kratos XQ-58A Valkyrie Drone 5
+    400330: Kratos XQ-58A Valkyrie Drone 6
+    400332: Kratos XQ-58A Valkyrie Drone 7
+    400334: Kratos XQ-58A Valkyrie Drone 8
+    400336: Kratos XQ-58A Valkyrie Drone 9
+    400338: Loud Speaker 1
+    400340: Loud Speaker 2
+    400342: Military Truck 1
+    400344: Military Truck 10
+    400346: Military Truck 11
+    400348: Military Truck 12
+    400350: Military Truck 13
+    400352: Military Truck 14
+    400354: Military Truck 15
+    400356: Military Truck 16
+    400358: Military Truck 17
+    400360: Military Truck 18
+    400362: Military Truck 19
+    400364: Military Truck 2
+    400366: Military Truck 20
+    400368: Military Truck 21
+    400370: Military Truck 22
+    400372: Military Truck 23
+    400374: Military Truck 24
+    400376: Military Truck 3
+    400378: Military Truck 4
+    400380: Military Truck 5
+    400382: Military Truck 6
+    400384: Military Truck 7
+    400386: Military Truck 8
+    400388: Military Truck 9
+    400390: Northrop Grumman B-21 Raider 1
+    400392: Northrop Grumman B-21 Raider 3
+    400394: Open Fence
+    400396: Plane
+    400398: //RootNode
+    400400: Predator C Avenger Drone 1
+    400402: Predator C Avenger Drone 2
+    400404: Predator C Avenger Drone 2.001
+    400406: Predator C Avenger Drone 3
+    400408: Predator C Avenger Drone 4
+    400410: Predator C Avenger Drone 5
+    400412: Predator C Avenger Drone 6
+    400414: Predator C Avenger Drone 7
+    400416: Prop 1
+    400418: Prop 2
+    400420: Rafale 10
+    400422: Rafale 11
+    400424: Rafale 12
+    400426: Rafale 13
+    400428: Rafale 14
+    400430: Rafale 15
+    400432: Rafale 16
+    400434: Rafale 17
+    400436: Rafale 18
+    400438: Rafale 3
+    400440: Rafale 4
+    400442: Rafale 6
+    400444: Rafale 7
+    400446: Road Tile
+    400448: Rock 1
+    400450: Rock 2
+    400452: Rock 3
+    400454: Runway
+    400456: Safe Area
+    400458: Sikorsky S-64 Skycrane  1
+    400460: Sikorsky S-64 Skycrane  10
+    400462: Sikorsky S-64 Skycrane  11
+    400464: Sikorsky S-64 Skycrane  12
+    400466: Sikorsky S-64 Skycrane  13
+    400468: Sikorsky S-64 Skycrane  14
+    400470: Sikorsky S-64 Skycrane  15
+    400472: Sikorsky S-64 Skycrane  16
+    400474: Sikorsky S-64 Skycrane  17
+    400476: Sikorsky S-64 Skycrane  18
+    400478: Sikorsky S-64 Skycrane  19
+    400480: Sikorsky S-64 Skycrane  2
+    400482: Sikorsky S-64 Skycrane  20
+    400484: Sikorsky S-64 Skycrane  21
+    400486: Sikorsky S-64 Skycrane  22
+    400488: Sikorsky S-64 Skycrane  23
+    400490: Sikorsky S-64 Skycrane  3
+    400492: Sikorsky S-64 Skycrane  4
+    400494: Sikorsky S-64 Skycrane  5
+    400496: Sikorsky S-64 Skycrane  6
+    400498: Sikorsky S-64 Skycrane  7
+    400500: Sikorsky S-64 Skycrane  8
+    400502: Sikorsky S-64 Skycrane  9
+    400504: Small Helipad
+    400506: Sukhoi SU-35 1
+    400508: Sukhoi SU-35 10
+    400510: Sukhoi SU-35 11
+    400512: Sukhoi SU-35 12
+    400514: Sukhoi SU-35 13
+    400516: Sukhoi SU-35 14
+    400518: Sukhoi SU-35 15
+    400520: Sukhoi SU-35 16
+    400522: Sukhoi SU-35 17
+    400524: Sukhoi SU-35 4
+    400526: Sukhoi SU-35 5
+    400528: Sukhoi SU-35 6
+    400530: Sukhoi SU-35 6.001
+    400532: Sukhoi SU-35 6.002
+    400534: Sukhoi SU-35 9
+    400536: Sukhoi SU-57 1
+    400538: Sukhoi SU-57 10
+    400540: Sukhoi SU-57 11
+    400542: Sukhoi SU-57 12
+    400544: Sukhoi SU-57 13
+    400546: Sukhoi SU-57 2
+    400548: Sukhoi SU-57 3
+    400550: Sukhoi SU-57 6
+    400552: Sukhoi SU-57 7
+    400554: Sukhoi SU-57 8
+    400556: Sukhoi SU-57 9
+    400558: Tent
+    400560: Tree 1
+    400562: Tree 2
+    400564: Tree 3
+    400566: Turret 1 - 1
+    400568: Turret 1 - 2
+    400570: Turret 1 - 3
+    400572: Turret 1 - 4
+    400574: Turret 1 - 5
+    400576: Turret 1 - 6
+    400578: Turret 1 - 7
+    400580: Turret 1 - 8
+    400582: Turret 2 - 1
+    400584: Turret 2 - 2
+    400586: Turret 2 - 3
+    400588: Turret 2 - 4
+    400590: Turret 2 - 5
+    400592: Turret 2 - 6
+    400594: Turret 3 - 1
+    400596: Turret 3 - 10
+    400598: Turret 3 - 11
+    400600: Turret 3 - 2
+    400602: Turret 3 - 3
+    400604: Turret 3 - 4
+    400606: Turret 3 - 5
+    400608: Turret 3 - 6
+    400610: Turret 3 - 7
+    400612: Turret 3 - 8
+    400614: Turret 3 - 9
+    400616: Valley
+    400618: Wall
+    400620: Watch Gate
+    400622: Watch Tower 2
+    2100000: Material
+    2100002: Color
+    2100004: Color.001
+    2100006: No Name
+    2100008: Color.002
+    2100010: Color.003
+    2100012: Color.004
+    2100014: Color.005
+    2100016: Color.006
+    2100018: Color.017
+    2100020: Color.018
+    2100022: Color.007
+    2100024: Color.008
+    2100026: Color.009
+    2100028: Color.010
+    2100030: Color.011
+    2100032: Color.014
+    2100034: Color.015
+    2100036: Color.016
+    2100038: Color.020
+    2100040: Color.021
+    2100042: Color.030
+    2100044: Color.031
+    2100046: Color.032
+    2100048: Color.034
+    2100050: Color.033
+    2100052: Color.038
+    2100054: Color.012
+    2100056: Color.013
+    2100058: Color.039
+    2100060: Color.040
+    2100062: Color.024
+    2100064: Color.023
+    2100066: Color.022
+    2100068: Color.019
+    2100070: Color.025
+    2100072: Color.035
+    2100074: Color.036
+    2100076: Color.027
+    2100078: Color.028
+    2100080: Color.029
+    2100082: Color.026
+    2300000: Airport 1 - 1
+    2300002: Airport 1 - 2
+    2300004: Airport 1 - 3
+    2300006: Airport 1 - 4
+    2300008: Airport 1 - 5
+    2300010: Airport 2
+    2300012: Airport 3
+    2300014: Apache Helicopter 1
+    2300016: Apache Helicopter 10
+    2300018: Apache Helicopter 14
+    2300020: Apache Helicopter 15
+    2300022: Apache Helicopter 16
+    2300024: Apache Helicopter 17
+    2300026: Apache Helicopter 18
+    2300028: Apache Helicopter 19
+    2300030: Apache Helicopter 2
+    2300032: Apache Helicopter 20
+    2300034: Apache Helicopter 21
+    2300036: Apache Helicopter 23
+    2300038: Apache Helicopter 24
+    2300040: Apache Helicopter 26
+    2300042: Apache Helicopter 28
+    2300044: Apache Helicopter 4
+    2300046: Apache Helicopter 5
+    2300048: Apache Helicopter 7
+    2300050: Apache Helicopter 8
+    2300052: Apache Helicopter 9
+    2300054: Boeing C17 10
+    2300056: Boeing C17 11
+    2300058: Boeing C17 12
+    2300060: Boeing C17 13
+    2300062: Boeing C17 14
+    2300064: Boeing C17 15
+    2300066: Boeing C17 16
+    2300068: Boeing C17 17
+    2300070: Boeing C17 3
+    2300072: Boeing C17 4
+    2300074: Box
+    2300076: Chinook 1
+    2300078: Chinook 11
+    2300080: Chinook 12
+    2300082: Chinook 13
+    2300084: Chinook 14
+    2300086: Chinook 15
+    2300088: Chinook 4
+    2300090: Chinook 5
+    2300092: Chinook 6
+    2300094: Chinook 7
+    2300096: Chinook 8
+    2300098: Concrete Pipe
+    2300100: Container 1
+    2300102: Container 2
+    2300104: Container 3
+    2300106: Cube
+    2300108: Cube.001
+    2300110: Cube.002
+    2300112: Cube.003
+    2300114: Cube.004
+    2300116: Cube.045
+    2300118: Cube.046
+    2300120: Cube.049
+    2300122: Cube.059
+    2300124: Cube.060
+    2300126: Cube.063
+    2300128: Cube.064
+    2300130: Cube.065
+    2300132: Cube.066
+    2300134: Cube.067
+    2300136: Cube.068
+    2300138: Cube.069
+    2300140: Cube.070
+    2300142: Cube.085
+    2300144: Cube.086
+    2300146: Cube.087
+    2300148: Cube.128
+    2300150: Cube.129
+    2300152: Cube.130
+    2300154: Cube.133
+    2300156: Cube.135
+    2300158: Cube.136
+    2300160: Cube.137
+    2300162: Cube.138
+    2300164: Cube.142
+    2300166: Cube.159
+    2300168: Cube.196
+    2300170: Cube.197
+    2300172: Cube.198
+    2300174: Cylinder.001
+    2300176: Cylinder.002
+    2300178: Cylinder.003
+    2300180: Cylinder.004
+    2300182: Cylinder.005
+    2300184: Cylinder.006
+    2300186: Cylinder.007
+    2300188: Cylinder.008
+    2300190: Cylinder.009
+    2300192: Cylinder.043
+    2300194: Cylinder.050
+    2300196: Cylinder.051
+    2300198: Cylinder.063
+    2300200: Cylinder.071
+    2300202: Cylinder.073
+    2300204: Cylinder.074
+    2300206: Cylinder.075
+    2300208: Cylinder.101
+    2300210: Cylinder.102
+    2300212: Cylinder.103
+    2300214: Cylinder.105
+    2300216: F-16 2
+    2300218: F-16 3
+    2300220: F-16 4
+    2300222: F-16 5
+    2300224: F-16 6
+    2300226: F-22 Raptor 10
+    2300228: F-22 Raptor 2
+    2300230: F-22 Raptor 2.001
+    2300232: F-22 Raptor 3
+    2300234: F-22 Raptor 4
+    2300236: F-22 Raptor 5
+    2300238: F-22 Raptor 6
+    2300240: F-22 Raptor 8
+    2300242: F-22 Raptor 9
+    2300244: F35 Lightning 2 1
+    2300246: F35 Lightning 2 2
+    2300248: F35 Lightning 2 3
+    2300250: F35 Lightning 2 4
+    2300252: F35 Lightning 2 5
+    2300254: F35 Lightning 2 6
+    2300256: F35 Lightning 2 7
+    2300258: F35 Lightning 2 8
+    2300260: Fence
+    2300262: Fence Pole
+    2300264: Fence.001
+    2300266: Fence.003
+    2300268: Fence.004
+    2300270: Flag 1
+    2300272: Flag 1.001
+    2300274: Flag 1.002
+    2300276: Flag 2
+    2300278: Flag 2.001
+    2300280: Flag 2.002
+    2300282: Gates 1
+    2300284: Gates 2
+    2300286: Gates 3
+    2300288: Hangar
+    2300290: Helipad
+    2300292: Jet Area
+    2300294: Jet Area.001
+    2300296: Kamov KA-50/KA-52 - 1
+    2300298: Kamov KA-50/KA-52 1
+    2300300: Kamov KA-50/KA-52 1.001
+    2300302: Kamov KA-50/KA-52 16
+    2300304: Kamov KA-50/KA-52 17
+    2300306: Kamov KA-50/KA-52 18
+    2300308: Kamov KA-50/KA-52 19
+    2300310: Kamov KA-50/KA-52 20
+    2300312: Kamov KA-50/KA-52 21
+    2300314: Kamov KA-50/KA-52 21.001
+    2300316: Kamov KA-50/KA-52 23
+    2300318: Kamov KA-50/KA-52 6
+    2300320: Kamov KA-50/KA-52 7
+    2300322: Kratos XQ-58A Valkyrie Drone 1
+    2300324: Kratos XQ-58A Valkyrie Drone 2
+    2300326: Kratos XQ-58A Valkyrie Drone 4
+    2300328: Kratos XQ-58A Valkyrie Drone 5
+    2300330: Kratos XQ-58A Valkyrie Drone 6
+    2300332: Kratos XQ-58A Valkyrie Drone 7
+    2300334: Kratos XQ-58A Valkyrie Drone 8
+    2300336: Kratos XQ-58A Valkyrie Drone 9
+    2300338: Loud Speaker 1
+    2300340: Loud Speaker 2
+    2300342: Military Truck 1
+    2300344: Military Truck 10
+    2300346: Military Truck 11
+    2300348: Military Truck 12
+    2300350: Military Truck 13
+    2300352: Military Truck 14
+    2300354: Military Truck 15
+    2300356: Military Truck 16
+    2300358: Military Truck 17
+    2300360: Military Truck 18
+    2300362: Military Truck 19
+    2300364: Military Truck 2
+    2300366: Military Truck 20
+    2300368: Military Truck 21
+    2300370: Military Truck 22
+    2300372: Military Truck 23
+    2300374: Military Truck 24
+    2300376: Military Truck 3
+    2300378: Military Truck 4
+    2300380: Military Truck 5
+    2300382: Military Truck 6
+    2300384: Military Truck 7
+    2300386: Military Truck 8
+    2300388: Military Truck 9
+    2300390: Northrop Grumman B-21 Raider 1
+    2300392: Northrop Grumman B-21 Raider 3
+    2300394: Open Fence
+    2300396: Plane
+    2300398: Predator C Avenger Drone 1
+    2300400: Predator C Avenger Drone 2
+    2300402: Predator C Avenger Drone 2.001
+    2300404: Predator C Avenger Drone 3
+    2300406: Predator C Avenger Drone 4
+    2300408: Predator C Avenger Drone 5
+    2300410: Predator C Avenger Drone 6
+    2300412: Predator C Avenger Drone 7
+    2300414: Prop 1
+    2300416: Prop 2
+    2300418: Rafale 10
+    2300420: Rafale 11
+    2300422: Rafale 12
+    2300424: Rafale 13
+    2300426: Rafale 14
+    2300428: Rafale 15
+    2300430: Rafale 16
+    2300432: Rafale 17
+    2300434: Rafale 18
+    2300436: Rafale 3
+    2300438: Rafale 4
+    2300440: Rafale 6
+    2300442: Rafale 7
+    2300444: Road Tile
+    2300446: Rock 1
+    2300448: Rock 2
+    2300450: Rock 3
+    2300452: Runway
+    2300454: Safe Area
+    2300456: Sikorsky S-64 Skycrane  1
+    2300458: Sikorsky S-64 Skycrane  10
+    2300460: Sikorsky S-64 Skycrane  11
+    2300462: Sikorsky S-64 Skycrane  12
+    2300464: Sikorsky S-64 Skycrane  13
+    2300466: Sikorsky S-64 Skycrane  14
+    2300468: Sikorsky S-64 Skycrane  15
+    2300470: Sikorsky S-64 Skycrane  16
+    2300472: Sikorsky S-64 Skycrane  17
+    2300474: Sikorsky S-64 Skycrane  18
+    2300476: Sikorsky S-64 Skycrane  19
+    2300478: Sikorsky S-64 Skycrane  2
+    2300480: Sikorsky S-64 Skycrane  20
+    2300482: Sikorsky S-64 Skycrane  21
+    2300484: Sikorsky S-64 Skycrane  22
+    2300486: Sikorsky S-64 Skycrane  23
+    2300488: Sikorsky S-64 Skycrane  3
+    2300490: Sikorsky S-64 Skycrane  4
+    2300492: Sikorsky S-64 Skycrane  5
+    2300494: Sikorsky S-64 Skycrane  6
+    2300496: Sikorsky S-64 Skycrane  7
+    2300498: Sikorsky S-64 Skycrane  8
+    2300500: Sikorsky S-64 Skycrane  9
+    2300502: Small Helipad
+    2300504: Sukhoi SU-35 1
+    2300506: Sukhoi SU-35 10
+    2300508: Sukhoi SU-35 11
+    2300510: Sukhoi SU-35 12
+    2300512: Sukhoi SU-35 13
+    2300514: Sukhoi SU-35 14
+    2300516: Sukhoi SU-35 15
+    2300518: Sukhoi SU-35 16
+    2300520: Sukhoi SU-35 17
+    2300522: Sukhoi SU-35 4
+    2300524: Sukhoi SU-35 5
+    2300526: Sukhoi SU-35 6
+    2300528: Sukhoi SU-35 6.001
+    2300530: Sukhoi SU-35 6.002
+    2300532: Sukhoi SU-35 9
+    2300534: Sukhoi SU-57 1
+    2300536: Sukhoi SU-57 10
+    2300538: Sukhoi SU-57 11
+    2300540: Sukhoi SU-57 12
+    2300542: Sukhoi SU-57 13
+    2300544: Sukhoi SU-57 2
+    2300546: Sukhoi SU-57 3
+    2300548: Sukhoi SU-57 6
+    2300550: Sukhoi SU-57 7
+    2300552: Sukhoi SU-57 8
+    2300554: Sukhoi SU-57 9
+    2300556: Tent
+    2300558: Tree 1
+    2300560: Tree 2
+    2300562: Tree 3
+    2300564: Turret 1 - 1
+    2300566: Turret 1 - 2
+    2300568: Turret 1 - 3
+    2300570: Turret 1 - 4
+    2300572: Turret 1 - 5
+    2300574: Turret 1 - 6
+    2300576: Turret 1 - 7
+    2300578: Turret 1 - 8
+    2300580: Turret 2 - 1
+    2300582: Turret 2 - 2
+    2300584: Turret 2 - 3
+    2300586: Turret 2 - 4
+    2300588: Turret 2 - 5
+    2300590: Turret 2 - 6
+    2300592: Turret 3 - 1
+    2300594: Turret 3 - 10
+    2300596: Turret 3 - 11
+    2300598: Turret 3 - 2
+    2300600: Turret 3 - 3
+    2300602: Turret 3 - 4
+    2300604: Turret 3 - 5
+    2300606: Turret 3 - 6
+    2300608: Turret 3 - 7
+    2300610: Turret 3 - 8
+    2300612: Turret 3 - 9
+    2300614: Valley
+    2300616: Wall
+    2300618: Watch Gate
+    2300620: Watch Tower 2
+    3300000: Airport 1 - 1
+    3300002: Airport 1 - 2
+    3300004: Airport 1 - 3
+    3300006: Airport 1 - 4
+    3300008: Airport 1 - 5
+    3300010: Airport 2
+    3300012: Airport 3
+    3300014: Apache Helicopter 1
+    3300016: Apache Helicopter 10
+    3300018: Apache Helicopter 14
+    3300020: Apache Helicopter 15
+    3300022: Apache Helicopter 16
+    3300024: Apache Helicopter 17
+    3300026: Apache Helicopter 18
+    3300028: Apache Helicopter 19
+    3300030: Apache Helicopter 2
+    3300032: Apache Helicopter 20
+    3300034: Apache Helicopter 21
+    3300036: Apache Helicopter 23
+    3300038: Apache Helicopter 24
+    3300040: Apache Helicopter 26
+    3300042: Apache Helicopter 28
+    3300044: Apache Helicopter 4
+    3300046: Apache Helicopter 5
+    3300048: Apache Helicopter 7
+    3300050: Apache Helicopter 8
+    3300052: Apache Helicopter 9
+    3300054: Boeing C17 10
+    3300056: Boeing C17 11
+    3300058: Boeing C17 12
+    3300060: Boeing C17 13
+    3300062: Boeing C17 14
+    3300064: Boeing C17 15
+    3300066: Boeing C17 16
+    3300068: Boeing C17 17
+    3300070: Boeing C17 3
+    3300072: Boeing C17 4
+    3300074: Box
+    3300076: Chinook 1
+    3300078: Chinook 11
+    3300080: Chinook 12
+    3300082: Chinook 13
+    3300084: Chinook 14
+    3300086: Chinook 15
+    3300088: Chinook 4
+    3300090: Chinook 5
+    3300092: Chinook 6
+    3300094: Chinook 7
+    3300096: Chinook 8
+    3300098: Concrete Pipe
+    3300100: Container 1
+    3300102: Container 2
+    3300104: Container 3
+    3300106: Cube
+    3300108: Cube.001
+    3300110: Cube.002
+    3300112: Cube.003
+    3300114: Cube.004
+    3300116: Cube.045
+    3300118: Cube.046
+    3300120: Cube.049
+    3300122: Cube.059
+    3300124: Cube.060
+    3300126: Cube.063
+    3300128: Cube.064
+    3300130: Cube.065
+    3300132: Cube.066
+    3300134: Cube.067
+    3300136: Cube.068
+    3300138: Cube.069
+    3300140: Cube.070
+    3300142: Cube.085
+    3300144: Cube.086
+    3300146: Cube.087
+    3300148: Cube.128
+    3300150: Cube.129
+    3300152: Cube.130
+    3300154: Cube.133
+    3300156: Cube.135
+    3300158: Cube.136
+    3300160: Cube.137
+    3300162: Cube.138
+    3300164: Cube.142
+    3300166: Cube.159
+    3300168: Cube.196
+    3300170: Cube.197
+    3300172: Cube.198
+    3300174: Cylinder.001
+    3300176: Cylinder.002
+    3300178: Cylinder.003
+    3300180: Cylinder.004
+    3300182: Cylinder.005
+    3300184: Cylinder.006
+    3300186: Cylinder.007
+    3300188: Cylinder.008
+    3300190: Cylinder.009
+    3300192: Cylinder.043
+    3300194: Cylinder.050
+    3300196: Cylinder.051
+    3300198: Cylinder.063
+    3300200: Cylinder.071
+    3300202: Cylinder.073
+    3300204: Cylinder.074
+    3300206: Cylinder.075
+    3300208: Cylinder.101
+    3300210: Cylinder.102
+    3300212: Cylinder.103
+    3300214: Cylinder.105
+    3300216: F-16 2
+    3300218: F-16 3
+    3300220: F-16 4
+    3300222: F-16 5
+    3300224: F-16 6
+    3300226: F-22 Raptor 10
+    3300228: F-22 Raptor 2
+    3300230: F-22 Raptor 2.001
+    3300232: F-22 Raptor 3
+    3300234: F-22 Raptor 4
+    3300236: F-22 Raptor 5
+    3300238: F-22 Raptor 6
+    3300240: F-22 Raptor 8
+    3300242: F-22 Raptor 9
+    3300244: F35 Lightning 2 1
+    3300246: F35 Lightning 2 2
+    3300248: F35 Lightning 2 3
+    3300250: F35 Lightning 2 4
+    3300252: F35 Lightning 2 5
+    3300254: F35 Lightning 2 6
+    3300256: F35 Lightning 2 7
+    3300258: F35 Lightning 2 8
+    3300260: Fence
+    3300262: Fence Pole
+    3300264: Fence.001
+    3300266: Fence.003
+    3300268: Fence.004
+    3300270: Flag 1
+    3300272: Flag 1.001
+    3300274: Flag 1.002
+    3300276: Flag 2
+    3300278: Flag 2.001
+    3300280: Flag 2.002
+    3300282: Gates 1
+    3300284: Gates 2
+    3300286: Gates 3
+    3300288: Hangar
+    3300290: Helipad
+    3300292: Jet Area
+    3300294: Jet Area.001
+    3300296: Kamov KA-50/KA-52 - 1
+    3300298: Kamov KA-50/KA-52 1
+    3300300: Kamov KA-50/KA-52 1.001
+    3300302: Kamov KA-50/KA-52 16
+    3300304: Kamov KA-50/KA-52 17
+    3300306: Kamov KA-50/KA-52 18
+    3300308: Kamov KA-50/KA-52 19
+    3300310: Kamov KA-50/KA-52 20
+    3300312: Kamov KA-50/KA-52 21
+    3300314: Kamov KA-50/KA-52 21.001
+    3300316: Kamov KA-50/KA-52 23
+    3300318: Kamov KA-50/KA-52 6
+    3300320: Kamov KA-50/KA-52 7
+    3300322: Kratos XQ-58A Valkyrie Drone 1
+    3300324: Kratos XQ-58A Valkyrie Drone 2
+    3300326: Kratos XQ-58A Valkyrie Drone 4
+    3300328: Kratos XQ-58A Valkyrie Drone 5
+    3300330: Kratos XQ-58A Valkyrie Drone 6
+    3300332: Kratos XQ-58A Valkyrie Drone 7
+    3300334: Kratos XQ-58A Valkyrie Drone 8
+    3300336: Kratos XQ-58A Valkyrie Drone 9
+    3300338: Loud Speaker 1
+    3300340: Loud Speaker 2
+    3300342: Military Truck 1
+    3300344: Military Truck 10
+    3300346: Military Truck 11
+    3300348: Military Truck 12
+    3300350: Military Truck 13
+    3300352: Military Truck 14
+    3300354: Military Truck 15
+    3300356: Military Truck 16
+    3300358: Military Truck 17
+    3300360: Military Truck 18
+    3300362: Military Truck 19
+    3300364: Military Truck 2
+    3300366: Military Truck 20
+    3300368: Military Truck 21
+    3300370: Military Truck 22
+    3300372: Military Truck 23
+    3300374: Military Truck 24
+    3300376: Military Truck 3
+    3300378: Military Truck 4
+    3300380: Military Truck 5
+    3300382: Military Truck 6
+    3300384: Military Truck 7
+    3300386: Military Truck 8
+    3300388: Military Truck 9
+    3300390: Northrop Grumman B-21 Raider 1
+    3300392: Northrop Grumman B-21 Raider 3
+    3300394: Open Fence
+    3300396: Plane
+    3300398: Predator C Avenger Drone 1
+    3300400: Predator C Avenger Drone 2
+    3300402: Predator C Avenger Drone 2.001
+    3300404: Predator C Avenger Drone 3
+    3300406: Predator C Avenger Drone 4
+    3300408: Predator C Avenger Drone 5
+    3300410: Predator C Avenger Drone 6
+    3300412: Predator C Avenger Drone 7
+    3300414: Prop 1
+    3300416: Prop 2
+    3300418: Rafale 10
+    3300420: Rafale 11
+    3300422: Rafale 12
+    3300424: Rafale 13
+    3300426: Rafale 14
+    3300428: Rafale 15
+    3300430: Rafale 16
+    3300432: Rafale 17
+    3300434: Rafale 18
+    3300436: Rafale 3
+    3300438: Rafale 4
+    3300440: Rafale 6
+    3300442: Rafale 7
+    3300444: Road Tile
+    3300446: Rock 1
+    3300448: Rock 2
+    3300450: Rock 3
+    3300452: Runway
+    3300454: Safe Area
+    3300456: Sikorsky S-64 Skycrane  1
+    3300458: Sikorsky S-64 Skycrane  10
+    3300460: Sikorsky S-64 Skycrane  11
+    3300462: Sikorsky S-64 Skycrane  12
+    3300464: Sikorsky S-64 Skycrane  13
+    3300466: Sikorsky S-64 Skycrane  14
+    3300468: Sikorsky S-64 Skycrane  15
+    3300470: Sikorsky S-64 Skycrane  16
+    3300472: Sikorsky S-64 Skycrane  17
+    3300474: Sikorsky S-64 Skycrane  18
+    3300476: Sikorsky S-64 Skycrane  19
+    3300478: Sikorsky S-64 Skycrane  2
+    3300480: Sikorsky S-64 Skycrane  20
+    3300482: Sikorsky S-64 Skycrane  21
+    3300484: Sikorsky S-64 Skycrane  22
+    3300486: Sikorsky S-64 Skycrane  23
+    3300488: Sikorsky S-64 Skycrane  3
+    3300490: Sikorsky S-64 Skycrane  4
+    3300492: Sikorsky S-64 Skycrane  5
+    3300494: Sikorsky S-64 Skycrane  6
+    3300496: Sikorsky S-64 Skycrane  7
+    3300498: Sikorsky S-64 Skycrane  8
+    3300500: Sikorsky S-64 Skycrane  9
+    3300502: Small Helipad
+    3300504: Sukhoi SU-35 1
+    3300506: Sukhoi SU-35 10
+    3300508: Sukhoi SU-35 11
+    3300510: Sukhoi SU-35 12
+    3300512: Sukhoi SU-35 13
+    3300514: Sukhoi SU-35 14
+    3300516: Sukhoi SU-35 15
+    3300518: Sukhoi SU-35 16
+    3300520: Sukhoi SU-35 17
+    3300522: Sukhoi SU-35 4
+    3300524: Sukhoi SU-35 5
+    3300526: Sukhoi SU-35 6
+    3300528: Sukhoi SU-35 6.001
+    3300530: Sukhoi SU-35 6.002
+    3300532: Sukhoi SU-35 9
+    3300534: Sukhoi SU-57 1
+    3300536: Sukhoi SU-57 10
+    3300538: Sukhoi SU-57 11
+    3300540: Sukhoi SU-57 12
+    3300542: Sukhoi SU-57 13
+    3300544: Sukhoi SU-57 2
+    3300546: Sukhoi SU-57 3
+    3300548: Sukhoi SU-57 6
+    3300550: Sukhoi SU-57 7
+    3300552: Sukhoi SU-57 8
+    3300554: Sukhoi SU-57 9
+    3300556: Tent
+    3300558: Tree 1
+    3300560: Tree 2
+    3300562: Tree 3
+    3300564: Turret 1 - 1
+    3300566: Turret 1 - 2
+    3300568: Turret 1 - 3
+    3300570: Turret 1 - 4
+    3300572: Turret 1 - 5
+    3300574: Turret 1 - 6
+    3300576: Turret 1 - 7
+    3300578: Turret 1 - 8
+    3300580: Turret 2 - 1
+    3300582: Turret 2 - 2
+    3300584: Turret 2 - 3
+    3300586: Turret 2 - 4
+    3300588: Turret 2 - 5
+    3300590: Turret 2 - 6
+    3300592: Turret 3 - 1
+    3300594: Turret 3 - 10
+    3300596: Turret 3 - 11
+    3300598: Turret 3 - 2
+    3300600: Turret 3 - 3
+    3300602: Turret 3 - 4
+    3300604: Turret 3 - 5
+    3300606: Turret 3 - 6
+    3300608: Turret 3 - 7
+    3300610: Turret 3 - 8
+    3300612: Turret 3 - 9
+    3300614: Valley
+    3300616: Wall
+    3300618: Watch Gate
+    3300620: Watch Tower 2
+    4300000: Plane
+    4300002: Rafale 10
+    4300004: Rafale 11
+    4300006: Rafale 3
+    4300008: Rafale 4
+    4300010: Rafale 12
+    4300012: Rafale 13
+    4300014: Rafale 14
+    4300016: Rafale 15
+    4300018: Rafale 6
+    4300020: Rafale 17
+    4300022: Rafale 16
+    4300024: Rafale 18
+    4300026: Rafale 7
+    4300028: F-16 3
+    4300030: F-16 2
+    4300032: F-16 4
+    4300034: F-16 5
+    4300036: F-16 6
+    4300038: Cube.196
+    4300040: Cube.197
+    4300042: Cube.198
+    4300044: Cylinder.101
+    4300046: Cylinder.102
+    4300048: Cylinder.103
+    4300050: Cylinder.105
+    4300052: Sukhoi SU-35 6.002
+    4300054: Sukhoi SU-35 4
+    4300056: Sukhoi SU-35 1
+    4300058: Sukhoi SU-35 5
+    4300060: Sukhoi SU-35 11
+    4300062: Sukhoi SU-35 10
+    4300064: Sukhoi SU-35 9
+    4300066: Sukhoi SU-35 6
+    4300068: Sukhoi SU-35 12
+    4300070: Sukhoi SU-35 6.001
+    4300072: Sukhoi SU-35 13
+    4300074: Sukhoi SU-35 14
+    4300076: Sukhoi SU-35 15
+    4300078: Sukhoi SU-35 16
+    4300080: Sukhoi SU-35 17
+    4300082: F-22 Raptor 2
+    4300084: F-22 Raptor 3
+    4300086: F-22 Raptor 8
+    4300088: F-22 Raptor 4
+    4300090: F-22 Raptor 9
+    4300092: F-22 Raptor 5
+    4300094: F-22 Raptor 6
+    4300096: F-22 Raptor 10
+    4300098: F-22 Raptor 2.001
+    4300100: Chinook 1
+    4300102: Chinook 7
+    4300104: Chinook 8
+    4300106: Chinook 4
+    4300108: Chinook 12
+    4300110: Chinook 11
+    4300112: Chinook 14
+    4300114: Chinook 13
+    4300116: Chinook 5
+    4300118: Chinook 15
+    4300120: Chinook 6
+    4300122: Cylinder.001
+    4300124: Cylinder.002
+    4300126: Cylinder.003
+    4300128: Apache Helicopter 4
+    4300130: Apache Helicopter 5
+    4300132: Apache Helicopter 1
+    4300134: Apache Helicopter 2
+    4300136: Apache Helicopter 10
+    4300138: Apache Helicopter 7
+    4300140: Apache Helicopter 8
+    4300142: Apache Helicopter 19
+    4300144: Apache Helicopter 9
+    4300146: Apache Helicopter 20
+    4300148: Apache Helicopter 21
+    4300150: Apache Helicopter 24
+    4300152: Apache Helicopter 26
+    4300154: Apache Helicopter 14
+    4300156: Apache Helicopter 15
+    4300158: Apache Helicopter 23
+    4300160: Apache Helicopter 28
+    4300162: Apache Helicopter 16
+    4300164: Apache Helicopter 17
+    4300166: Apache Helicopter 18
+    4300168: Sukhoi SU-57 1
+    4300170: Sukhoi SU-57 2
+    4300172: Sukhoi SU-57 3
+    4300174: Sukhoi SU-57 8
+    4300176: Sukhoi SU-57 9
+    4300178: Sukhoi SU-57 6
+    4300180: Sukhoi SU-57 7
+    4300182: Sukhoi SU-57 12
+    4300184: Sukhoi SU-57 10
+    4300186: Sukhoi SU-57 13
+    4300188: Sukhoi SU-57 11
+    4300190: F35 Lightning 2 1
+    4300192: F35 Lightning 2 2
+    4300194: F35 Lightning 2 5
+    4300196: F35 Lightning 2 3
+    4300198: F35 Lightning 2 6
+    4300200: F35 Lightning 2 4
+    4300202: F35 Lightning 2 8
+    4300204: F35 Lightning 2 7
+    4300206: Northrop Grumman B-21 Raider 1
+    4300208: Northrop Grumman B-21 Raider 3
+    4300210: Cylinder.004
+    4300212: Cylinder.005
+    4300214: Cylinder.006
+    4300216: Cylinder.008
+    4300218: Cylinder.007
+    4300220: Cube
+    4300222: Cube.003
+    4300224: Cube.004
+    4300226: Jet Area
+    4300228: Boeing C17 11
+    4300230: Boeing C17 3
+    4300232: Boeing C17 4
+    4300234: Boeing C17 12
+    4300236: Boeing C17 13
+    4300238: Boeing C17 14
+    4300240: Boeing C17 15
+    4300242: Boeing C17 16
+    4300244: Boeing C17 10
+    4300246: Boeing C17 17
+    4300248: Cylinder.071
+    4300250: Cube.128
+    4300252: Cube.130
+    4300254: Cube.129
+    4300256: Cube.133
+    4300258: Cube.136
+    4300260: Cylinder.073
+    4300262: Cylinder.074
+    4300264: Cylinder.075
+    4300266: Cube.135
+    4300268: Cube.137
+    4300270: Cube.138
+    4300272: Cube.159
+    4300274: Kamov KA-50/KA-52 - 1
+    4300276: Kamov KA-50/KA-52 23
+    4300278: Kamov KA-50/KA-52 16
+    4300280: Kamov KA-50/KA-52 1
+    4300282: Kamov KA-50/KA-52 17
+    4300284: Kamov KA-50/KA-52 18
+    4300286: Kamov KA-50/KA-52 19
+    4300288: Kamov KA-50/KA-52 20
+    4300290: Kamov KA-50/KA-52 21
+    4300292: Kamov KA-50/KA-52 6
+    4300294: Kamov KA-50/KA-52 7
+    4300296: Kamov KA-50/KA-52 21.001
+    4300298: Kamov KA-50/KA-52 1.001
+    4300300: Sikorsky S-64 Skycrane  5
+    4300302: Sikorsky S-64 Skycrane  6
+    4300304: Sikorsky S-64 Skycrane  4
+    4300306: Sikorsky S-64 Skycrane  1
+    4300308: Sikorsky S-64 Skycrane  2
+    4300310: Sikorsky S-64 Skycrane  3
+    4300312: Sikorsky S-64 Skycrane  7
+    4300314: Sikorsky S-64 Skycrane  8
+    4300316: Sikorsky S-64 Skycrane  9
+    4300318: Sikorsky S-64 Skycrane  10
+    4300320: Sikorsky S-64 Skycrane  11
+    4300322: Sikorsky S-64 Skycrane  12
+    4300324: Sikorsky S-64 Skycrane  13
+    4300326: Sikorsky S-64 Skycrane  14
+    4300328: Sikorsky S-64 Skycrane  15
+    4300330: Sikorsky S-64 Skycrane  16
+    4300332: Sikorsky S-64 Skycrane  17
+    4300334: Sikorsky S-64 Skycrane  18
+    4300336: Sikorsky S-64 Skycrane  19
+    4300338: Sikorsky S-64 Skycrane  20
+    4300340: Sikorsky S-64 Skycrane  21
+    4300342: Sikorsky S-64 Skycrane  22
+    4300344: Sikorsky S-64 Skycrane  23
+    4300346: Cylinder.009
+    4300348: Runway
+    4300350: Road Tile
+    4300352: Jet Area.001
+    4300354: Cylinder.043
+    4300356: Cube.046
+    4300358: Cube.045
+    4300360: Cube.049
+    4300362: Cube.059
+    4300364: Fence.001
+    4300366: Cube.060
+    4300368: Fence
+    4300370: Cube.067
+    4300372: Cube.068
+    4300374: Cube.069
+    4300376: Cube.063
+    4300378: Fence.003
+    4300380: Fence.004
+    4300382: Cube.064
+    4300384: Cube.065
+    4300386: Cube.066
+    4300388: Cube.070
+    4300390: Airport 1 - 1
+    4300392: Airport 1 - 4
+    4300394: Airport 1 - 5
+    4300396: Airport 1 - 3
+    4300398: Airport 1 - 2
+    4300400: Cube.085
+    4300402: Cube.086
+    4300404: Cube.087
+    4300406: Cylinder.050
+    4300408: Cylinder.051
+    4300410: Turret 1 - 5
+    4300412: Turret 1 - 1
+    4300414: Turret 1 - 2
+    4300416: Turret 1 - 6
+    4300418: Turret 1 - 7
+    4300420: Turret 1 - 3
+    4300422: Turret 1 - 4
+    4300424: Turret 1 - 8
+    4300426: Turret 2 - 4
+    4300428: Turret 2 - 5
+    4300430: Turret 2 - 2
+    4300432: Turret 2 - 3
+    4300434: Turret 2 - 6
+    4300436: Turret 2 - 1
+    4300438: Turret 3 - 8
+    4300440: Turret 3 - 1
+    4300442: Turret 3 - 2
+    4300444: Turret 3 - 9
+    4300446: Turret 3 - 10
+    4300448: Turret 3 - 11
+    4300450: Turret 3 - 3
+    4300452: Turret 3 - 4
+    4300454: Turret 3 - 5
+    4300456: Turret 3 - 6
+    4300458: Turret 3 - 7
+    4300460: Box
+    4300462: Cylinder.063
+    4300464: Valley
+    4300466: Tree 1
+    4300468: Tree 2
+    4300470: Kratos XQ-58A Valkyrie Drone 1
+    4300472: Kratos XQ-58A Valkyrie Drone 2
+    4300474: Kratos XQ-58A Valkyrie Drone 5
+    4300476: Kratos XQ-58A Valkyrie Drone 4
+    4300478: Kratos XQ-58A Valkyrie Drone 6
+    4300480: Kratos XQ-58A Valkyrie Drone 7
+    4300482: Kratos XQ-58A Valkyrie Drone 8
+    4300484: Kratos XQ-58A Valkyrie Drone 9
+    4300486: Cube.001
+    4300488: Cube.002
+    4300490: Predator C Avenger Drone 3
+    4300492: Predator C Avenger Drone 4
+    4300494: Predator C Avenger Drone 5
+    4300496: Predator C Avenger Drone 6
+    4300498: Predator C Avenger Drone 1
+    4300500: Predator C Avenger Drone 2
+    4300502: Predator C Avenger Drone 7
+    4300504: Predator C Avenger Drone 2.001
+    4300506: Prop 1
+    4300508: Gates 1
+    4300510: Gates 2
+    4300512: Gates 3
+    4300514: Concrete Pipe
+    4300516: Cube.142
+    4300518: Loud Speaker 1
+    4300520: Loud Speaker 2
+    4300522: Flag 1
+    4300524: Flag 2
+    4300526: Flag 1.001
+    4300528: Flag 2.001
+    4300530: Flag 1.002
+    4300532: Flag 2.002
+    4300534: Safe Area
+    4300536: Military Truck 1
+    4300538: Military Truck 2
+    4300540: Military Truck 3
+    4300542: Military Truck 4
+    4300544: Military Truck 10
+    4300546: Military Truck 5
+    4300548: Military Truck 6
+    4300550: Military Truck 7
+    4300552: Military Truck 11
+    4300554: Military Truck 12
+    4300556: Military Truck 14
+    4300558: Military Truck 13
+    4300560: Military Truck 18
+    4300562: Military Truck 17
+    4300564: Military Truck 16
+    4300566: Military Truck 15
+    4300568: Military Truck 8
+    4300570: Military Truck 19
+    4300572: Military Truck 20
+    4300574: Military Truck 22
+    4300576: Military Truck 21
+    4300578: Military Truck 23
+    4300580: Military Truck 24
+    4300582: Military Truck 9
+    4300584: Helipad
+    4300586: Airport 2
+    4300588: Airport 3
+    4300590: Small Helipad
+    4300592: Wall
+    4300594: Tent
+    4300596: Hangar
+    4300598: Watch Tower 2
+    4300600: Fence Pole
+    4300602: Open Fence
+    4300604: Rock 3
+    4300606: Container 1
+    4300608: Container 2
+    4300610: Container 3
+    4300612: Prop 2
+    4300614: Rock 1
+    4300616: Tree 3
+    4300618: Watch Gate
+    4300620: Rock 2
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
