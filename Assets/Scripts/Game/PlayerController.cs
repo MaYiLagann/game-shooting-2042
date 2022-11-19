@@ -14,6 +14,10 @@ public class PlayerController : MonoBehaviour
 
     public float MovementSpeed = 1f;
 
+    public Animator PlayerAnimator;
+    public string AnimationKeyMoveLeft = "MoveLeft";
+    public string AnimationKeyMoveRight = "MoveRight";
+
     /// <summary>
     /// Update is called every frame, if the MonoBehaviour is enabled
     /// </summary>
@@ -22,5 +26,8 @@ public class PlayerController : MonoBehaviour
         var move = new Vector3(Input.GetAxis(InputAxisHorizontal), 0, Input.GetAxis(InputAxisVertical));
 
         PlayerCharacterController.Move(move * Time.deltaTime * MovementSpeed);
+
+        PlayerAnimator.SetBool(AnimationKeyMoveLeft, move.x < 0f);
+        PlayerAnimator.SetBool(AnimationKeyMoveRight, move.x > 0f);
     }
 }
