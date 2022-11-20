@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Pool;
 using Sirenix.OdinInspector;
 
 public class PlayerController : MonoBehaviour, IDamageable
@@ -28,6 +29,7 @@ public class PlayerController : MonoBehaviour, IDamageable
     [TitleGroup("Shooting")]
     [AssetsOnly]
     public BulletController BulletPrefab;
+    public IObjectPool<BulletController> BulletPool { get; set; }
     [ChildGameObjectsOnly]
     public Transform ShootTransform;
     public float ShootDelay = 0f;
@@ -45,6 +47,13 @@ public class PlayerController : MonoBehaviour, IDamageable
     void Start()
     {
         Health = StartHealth;
+
+        BulletPool = new ObjectPool<BulletController>(
+            createFunc: () => Instantiate(BulletPrefab),
+            actionOnRelease: bullet => bullet.OnRelease.RemoveAllListeners(),
+            actionOnDestroy: bullet => Destroy(bullet),
+            maxSize: 100
+        );
     }
 
     /// <summary>
@@ -63,9 +72,10 @@ public class PlayerController : MonoBehaviour, IDamageable
         {
             shootTimer = ShootDelay;
 
-            var bullet = Instantiate(BulletPrefab);
+            var bullet = BulletPool.Get();
             bullet.transform.position = ShootTransform.position;
             bullet.transform.rotation = ShootTransform.rotation;
+            bullet.OnRelease.AddListener(() => BulletPool.Release(bullet));
         }
 
         shootTimer -= Time.deltaTime;

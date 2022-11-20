@@ -48,6 +48,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Damage: 1
   Speed: 100
+  MaxRange: 1000
+  OnRelease:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!135 &7565237954505438754
 SphereCollider:
   m_ObjectHideFlags: 0
