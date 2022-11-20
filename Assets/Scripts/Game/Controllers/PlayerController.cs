@@ -3,12 +3,12 @@ using Sirenix.OdinInspector;
 
 public class PlayerController : MonoBehaviour, IDamageable
 {
-    // Todo: Implement shooting.
     // Todo: Implement use skill.
 
 
 
     [TitleGroup("Movement")]
+    [ChildGameObjectsOnly]
     public CharacterController PlayerCharacterController;
     public string InputAxisHorizontal = "Horizontal";
     public string InputAxisVertical = "Vertical";
@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour, IDamageable
     public float MovementSpeed = 1f;
 
     [TitleGroup("Animation")]
+    [ChildGameObjectsOnly]
     public Animator PlayerAnimator;
     public string AnimationKeyMoveLeft = "MoveLeft";
     public string AnimationKeyMoveRight = "MoveRight";
@@ -23,6 +24,17 @@ public class PlayerController : MonoBehaviour, IDamageable
     [TitleGroup("Damageable")]
     public int StartHealth = 100;
     public int Health { get; set; }
+
+    [TitleGroup("Shooting")]
+    [AssetsOnly]
+    public BulletController BulletPrefab;
+    [ChildGameObjectsOnly]
+    public Transform ShootTransform;
+    public float ShootDelay = 0f;
+
+
+
+    float shootTimer = 0f;
 
 
 
@@ -46,6 +58,17 @@ public class PlayerController : MonoBehaviour, IDamageable
 
         PlayerAnimator.SetBool(AnimationKeyMoveLeft, move.x < 0f);
         PlayerAnimator.SetBool(AnimationKeyMoveRight, move.x > 0f);
+
+        if (shootTimer <= 0f)
+        {
+            shootTimer = ShootDelay;
+
+            var bullet = Instantiate(BulletPrefab);
+            bullet.transform.position = ShootTransform.position;
+            bullet.transform.rotation = ShootTransform.rotation;
+        }
+
+        shootTimer -= Time.deltaTime;
     }
 
     public void Damage(int damage)

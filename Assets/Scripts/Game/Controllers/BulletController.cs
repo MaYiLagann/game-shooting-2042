@@ -3,6 +3,17 @@ using UnityEngine;
 public class BulletController : MonoBehaviour
 {
     public int Damage = 1;
+    public float Speed = 1f;
+
+
+
+    /// <summary>
+    /// Update is called every frame, if the MonoBehaviour is enabled.
+    /// </summary>
+    void Update()
+    {
+        transform.position += transform.forward * Speed * Time.deltaTime;
+    }
 
 
 
