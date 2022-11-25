@@ -50,7 +50,12 @@ public class PlayerController : MonoBehaviour, IDamageable
 
         BulletPool = new ObjectPool<BulletController>(
             createFunc: () => Instantiate(BulletPrefab),
-            actionOnRelease: bullet => bullet.OnRelease.RemoveAllListeners(),
+            actionOnGet: bullet => bullet.gameObject.SetActive(true),
+            actionOnRelease: bullet =>
+            {
+                bullet.OnRelease.RemoveAllListeners();
+                bullet.gameObject.SetActive(false);
+            },
             actionOnDestroy: bullet => Destroy(bullet),
             maxSize: 100
         );
