@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style
+        src="project://database/Assets/Scripts/Game/UIElements/GameUI/GameUI.uss?fileID=7433441132597879392&amp;guid=7e5971d1689376546ab06545b83dde1f&amp;type=3#GameUI" />
+    <ui:VisualElement name="Container">
+        <ui:Label text="Point: 0" display-tooltip-when-elided="true" name="TextPoint" />
+    </ui:VisualElement>
+</ui:UXML>
