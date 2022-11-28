@@ -4,7 +4,7 @@ using Sirenix.OdinInspector;
 
 public class DistanceRemover : MonoBehaviour
 {
-    public float MaxRange = 1000f;
+    public float MaxRange = 100f;
     public bool DestroySelf = false;
 
     [ShowIf("@DestroySelf == false")]
