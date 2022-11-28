@@ -74,6 +74,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8631731158356074065}
   - component: {fileID: 216936332871311659}
+  - component: {fileID: 1868308962499639448}
   - component: {fileID: 8631731158356074064}
   - component: {fileID: 249212559696716820}
   - component: {fileID: 2296979323755408701}
@@ -121,9 +122,21 @@ MonoBehaviour:
   AnimationKeyMoveLeft: MoveLeft
   AnimationKeyMoveRight: MoveRight
   StartHealth: 100
+--- !u!114 &1868308962499639448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8631731158356074066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e44e40a729c7d942b1231d218626738, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   BulletPrefab: {fileID: 8112366119611811508, guid: 322b2e182bde04744a49d91877f52846, type: 3}
   ShootTransform: {fileID: 4577441146120339378}
-  ShootDelay: 0.1
+  ShootPerSeconds: 10
 --- !u!135 &8631731158356074064
 SphereCollider:
   m_ObjectHideFlags: 0
