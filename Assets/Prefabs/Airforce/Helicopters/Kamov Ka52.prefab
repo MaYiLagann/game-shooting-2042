@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5126891998943769549}
   - component: {fileID: 5126891998943769550}
   m_Layer: 0
-  m_Name: Kamov KA-50/KA-52 21.001
+  m_Name: Wheel Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,6 +28,7 @@ Transform:
   m_LocalRotation: {x: -0.5, y: -0.49999997, z: 0.5, w: 0.50000006}
   m_LocalPosition: {x: 0.81489563, y: -1.1859977, z: -0.50370026}
   m_LocalScale: {x: 19.836899, y: 19.836899, z: 9.522133}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5126891999525545292}
   m_RootOrder: 11
@@ -51,9 +52,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -65,6 +69,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -77,6 +82,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5126891998973476449
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,7 +95,7 @@ GameObject:
   - component: {fileID: 5126891998973476382}
   - component: {fileID: 5126891998973476383}
   m_Layer: 0
-  m_Name: Kamov KA-50/KA-52 7
+  m_Name: Gear Side
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -105,6 +111,7 @@ Transform:
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0, y: -0.89997244, z: -0.503006}
   m_LocalScale: {x: 3.9349463, y: 3.9349453, z: 11.062079}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5126891999525545292}
   m_RootOrder: 4
@@ -128,9 +135,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -142,6 +152,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -154,6 +165,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5126891999107384802
 GameObject:
   m_ObjectHideFlags: 0
@@ -166,7 +178,7 @@ GameObject:
   - component: {fileID: 5126891999107384735}
   - component: {fileID: 5126891999107384800}
   m_Layer: 0
-  m_Name: Kamov KA-50/KA-52 16
+  m_Name: Rockets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -182,6 +194,7 @@ Transform:
   m_LocalRotation: {x: 0.00000008146034, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.1807709, y: -0.5232947, z: 0.6263275}
   m_LocalScale: {x: 16.446138, y: 16.446138, z: 54.722713}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5126891999525545292}
   m_RootOrder: 5
@@ -205,9 +218,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -219,6 +235,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -231,6 +248,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5126891999260025294
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,7 +261,7 @@ GameObject:
   - component: {fileID: 5126891999260025291}
   - component: {fileID: 5126891999260025292}
   m_Layer: 0
-  m_Name: Kamov KA-50/KA-52 20
+  m_Name: Wheel Front
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -259,6 +277,7 @@ Transform:
   m_LocalRotation: {x: -0.5, y: -0.49999997, z: 0.5, w: 0.50000006}
   m_LocalPosition: {x: 0.0014953613, y: -1.2561798, z: 2.1010895}
   m_LocalScale: {x: 11.488444, y: 11.488444, z: 5.5146956}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5126891999525545292}
   m_RootOrder: 9
@@ -282,9 +301,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -296,6 +318,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -308,6 +331,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5126891999411161393
 GameObject:
   m_ObjectHideFlags: 0
@@ -320,7 +344,7 @@ GameObject:
   - component: {fileID: 5126891999411161390}
   - component: {fileID: 5126891999411161391}
   m_Layer: 0
-  m_Name: Kamov KA-50/KA-52 17
+  m_Name: Engine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -336,6 +360,7 @@ Transform:
   m_LocalRotation: {x: -0.68991697, y: -3.7716036e-18, z: 3.7716073e-18, w: 0.7238885}
   m_LocalPosition: {x: 0.0013885498, y: 0.7124351, z: 0.10131836}
   m_LocalScale: {x: 15.017623, y: 15.012429, z: 7.7649593}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5126891999525545292}
   m_RootOrder: 6
@@ -359,9 +384,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -373,6 +401,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -385,6 +414,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5126891999516039922
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,7 +427,7 @@ GameObject:
   - component: {fileID: 5126891999516039919}
   - component: {fileID: 5126891999516039920}
   m_Layer: 0
-  m_Name: Kamov KA-50/KA-52 19
+  m_Name: Blade Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -413,6 +443,7 @@ Transform:
   m_LocalRotation: {x: -0.53714186, y: 0.43642, z: 0.45516652, w: 0.5602139}
   m_LocalPosition: {x: -0.003982544, y: 0.8404877, z: 0.10121918}
   m_LocalScale: {x: 14.031125, y: 14.031119, z: 1.7656231}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5126891999525545292}
   m_RootOrder: 8
@@ -436,9 +467,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -450,6 +484,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -462,6 +497,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5126891999525234268
 GameObject:
   m_ObjectHideFlags: 0
@@ -474,7 +510,7 @@ GameObject:
   - component: {fileID: 5126891999525234265}
   - component: {fileID: 5126891999525234266}
   m_Layer: 0
-  m_Name: Kamov KA-50/KA-52 6
+  m_Name: Gear Front
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -490,6 +526,7 @@ Transform:
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0.0013885498, y: -0.83015704, z: 2.177559}
   m_LocalScale: {x: 3.0168157, y: 3.0168147, z: 18.413603}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5126891999525545292}
   m_RootOrder: 3
@@ -513,9 +550,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -527,6 +567,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -539,6 +580,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5126891999525545293
 GameObject:
   m_ObjectHideFlags: 0
@@ -549,7 +591,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5126891999525545292}
   m_Layer: 0
-  m_Name: Kamov KA-50_KA-52
+  m_Name: Kamov Ka52
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -565,6 +607,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -159.64526, y: 0.61469936, z: -115.63698}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5126891999561706314}
   - {fileID: 5126892000665282313}
@@ -578,7 +621,6 @@ Transform:
   - {fileID: 5126891999260025293}
   - {fileID: 5126892000777727536}
   - {fileID: 5126891998943769551}
-  - {fileID: 5126892000062277154}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -594,7 +636,7 @@ GameObject:
   - component: {fileID: 5126891999561706312}
   - component: {fileID: 5126891999561706313}
   m_Layer: 0
-  m_Name: Kamov KA-50/KA-52 - 1
+  m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -610,6 +652,7 @@ Transform:
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 235.49928, y: 235.49922, z: 235.49922}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5126891999525545292}
   m_RootOrder: 0
@@ -633,9 +676,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -647,6 +693,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -659,6 +706,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5126891999866770666
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,7 +719,7 @@ GameObject:
   - component: {fileID: 5126891999866770663}
   - component: {fileID: 5126891999866770664}
   m_Layer: 0
-  m_Name: Kamov KA-50/KA-52 18
+  m_Name: Blade Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -687,6 +735,7 @@ Transform:
   m_LocalRotation: {x: -0.69208646, y: -3.300489e-18, z: 3.30049e-18, w: 0.72181463}
   m_LocalPosition: {x: 0.0013885498, y: 1.6457424, z: 0.1412201}
   m_LocalScale: {x: 14.031118, y: 14.031123, z: 1.7656231}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5126891999525545292}
   m_RootOrder: 7
@@ -710,9 +759,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -724,6 +776,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -736,83 +789,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!1 &5126892000062277155
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5126892000062277154}
-  - component: {fileID: 5126892000062277152}
-  - component: {fileID: 5126892000062277153}
-  m_Layer: 0
-  m_Name: Kamov KA-50/KA-52 23
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5126892000062277154
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5126892000062277155}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0.603775, y: 0.11902946, z: 0.85679626}
-  m_LocalScale: {x: 16.239023, y: 11.0731945, z: 16.239016}
-  m_Children: []
-  m_Father: {fileID: 5126891999525545292}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &5126892000062277152
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5126892000062277155}
-  m_Mesh: {fileID: 4300276, guid: 3c9a2bcef4a8b584cbe8ea5eca15f0d7, type: 3}
---- !u!23 &5126892000062277153
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5126892000062277155}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a562cd332f1f4574c9beebc47ec98f11, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5126892000665282314
 GameObject:
   m_ObjectHideFlags: 0
@@ -825,7 +802,7 @@ GameObject:
   - component: {fileID: 5126892000665282311}
   - component: {fileID: 5126892000665282312}
   m_Layer: 0
-  m_Name: Kamov KA-50/KA-52 1
+  m_Name: Pylon Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -841,6 +818,7 @@ Transform:
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 2.0663147, y: -0.17422917, z: 0.16452026}
   m_LocalScale: {x: 7.7602787, y: 49.56981, z: 7.760277}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5126891999525545292}
   m_RootOrder: 1
@@ -864,9 +842,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -878,6 +859,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -890,6 +872,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5126892000673021828
 GameObject:
   m_ObjectHideFlags: 0
@@ -902,7 +885,7 @@ GameObject:
   - component: {fileID: 5126892000673021825}
   - component: {fileID: 5126892000673021826}
   m_Layer: 0
-  m_Name: Kamov KA-50/KA-52 1.001
+  m_Name: Pylon Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -918,6 +901,7 @@ Transform:
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -2.0663147, y: -0.17422917, z: 0.16452026}
   m_LocalScale: {x: 7.7602787, y: 49.56981, z: 7.760277}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5126891999525545292}
   m_RootOrder: 2
@@ -941,9 +925,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -955,6 +942,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -967,6 +955,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5126892000777727537
 GameObject:
   m_ObjectHideFlags: 0
@@ -979,7 +968,7 @@ GameObject:
   - component: {fileID: 5126892000777727534}
   - component: {fileID: 5126892000777727535}
   m_Layer: 0
-  m_Name: Kamov KA-50/KA-52 21
+  m_Name: Wheel Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -995,6 +984,7 @@ Transform:
   m_LocalRotation: {x: -0.5, y: -0.49999997, z: 0.5, w: 0.50000006}
   m_LocalPosition: {x: -0.8121338, y: -1.1859977, z: -0.50370026}
   m_LocalScale: {x: 19.836899, y: 19.836899, z: 9.522133}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5126891999525545292}
   m_RootOrder: 10
@@ -1018,9 +1008,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1032,6 +1025,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -1044,3 +1038,4 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
