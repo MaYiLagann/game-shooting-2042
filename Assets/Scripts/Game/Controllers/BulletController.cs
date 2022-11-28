@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.Events;
 
 [RequireComponent(typeof(Rigidbody))]
 public class BulletController : MonoBehaviour
@@ -7,25 +6,21 @@ public class BulletController : MonoBehaviour
     public int Damage = 1;
     public float Speed = 1f;
     public ForceMode BulletForceMode = ForceMode.Force;
-    public float MaxRange = 1000f;
 
-    public UnityEvent OnRelease;
+    public DistanceRemover Remover;
 
 
 
     new Rigidbody rigidbody;
-    Vector3 startPosition;
 
 
 
     /// <summary>
-    /// Start is called on the frame when a script is enabled just before
-    /// any of the Update methods is called the first time.
+    /// This function is called when the object becomes enabled and active.
     /// </summary>
-    void Start()
+    void OnEnable()
     {
         rigidbody = GetComponent<Rigidbody>();
-        startPosition = transform.position;
 
         rigidbody.AddForce(transform.forward * Speed, BulletForceMode);
     }
@@ -36,18 +31,6 @@ public class BulletController : MonoBehaviour
     void OnDisable()
     {
         rigidbody.velocity = Vector3.zero;
-    }
-
-    /// <summary>
-    /// Update is called every frame, if the MonoBehaviour is enabled.
-    /// </summary>
-    void Update()
-    {
-        if (Vector3.Distance(startPosition, transform.position) > MaxRange)
-        {
-            transform.position = startPosition;
-            OnRelease.Invoke();
-        }
     }
 
 

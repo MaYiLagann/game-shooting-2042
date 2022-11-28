@@ -53,7 +53,7 @@ public class PlayerController : MonoBehaviour, IDamageable
             actionOnGet: bullet => bullet.gameObject.SetActive(true),
             actionOnRelease: bullet =>
             {
-                bullet.OnRelease.RemoveAllListeners();
+                bullet.Remover.OnRemove.RemoveAllListeners();
                 bullet.gameObject.SetActive(false);
             },
             actionOnDestroy: bullet => Destroy(bullet),
@@ -80,7 +80,7 @@ public class PlayerController : MonoBehaviour, IDamageable
             var bullet = BulletPool.Get();
             bullet.transform.position = ShootTransform.position;
             bullet.transform.rotation = ShootTransform.rotation;
-            bullet.OnRelease.AddListener(() => BulletPool.Release(bullet));
+            bullet.Remover.OnRemove.AddListener(() => BulletPool.Release(bullet));
         }
 
         shootTimer -= Time.deltaTime;

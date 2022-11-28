@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6852483707825003946}
   - component: {fileID: 8112366119611811508}
+  - component: {fileID: 5430911079167122133}
   - component: {fileID: 7565237954505438754}
   - component: {fileID: 6372706927828640808}
   m_Layer: 0
@@ -50,8 +51,22 @@ MonoBehaviour:
   Damage: 1
   Speed: 100
   BulletForceMode: 1
+  Remover: {fileID: 5430911079167122133}
+--- !u!114 &5430911079167122133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6076263049323333392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 925ddfee6d670564cb0f784e48eda819, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   MaxRange: 1000
-  OnRelease:
+  DestroySelf: 0
+  OnRemove:
     m_PersistentCalls:
       m_Calls: []
 --- !u!135 &7565237954505438754
