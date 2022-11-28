@@ -134,8 +134,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e44e40a729c7d942b1231d218626738, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletPrefab: {fileID: 8112366119611811508, guid: 322b2e182bde04744a49d91877f52846, type: 3}
-  ShootTransform: {fileID: 4577441146120339378}
+  BulletPrefab: {fileID: 8112366119611811508, guid: aadb792f571f89c4f89433e4b213806a, type: 3}
+  ShootTransforms:
+  - {fileID: 4577441146120339378}
   ShootPerSeconds: 10
 --- !u!135 &8631731158356074064
 SphereCollider:
