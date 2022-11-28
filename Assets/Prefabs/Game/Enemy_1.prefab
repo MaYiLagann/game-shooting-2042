@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57d334e428d15294faa24d06a6dd8da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovementSpeed: 20
+  MovementSpeed: 15
   StartHealth: 1
 --- !u!114 &1189102555010263046
 MonoBehaviour:
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 925ddfee6d670564cb0f784e48eda819, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxRange: 1000
+  MaxRange: 200
   DestroySelf: 0
   OnRemove:
     m_PersistentCalls:
