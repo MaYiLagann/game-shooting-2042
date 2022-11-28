@@ -8,13 +8,16 @@ public class Weapon : MonoBehaviour
     public BulletController BulletPrefab;
     public IObjectPool<BulletController> BulletPool { get; set; }
     [ChildGameObjectsOnly]
-    public Transform ShootTransform;
+    public Transform[] ShootTransforms;
     [MinValue(1)]
     public int ShootPerSeconds = 1;
 
 
 
     float shootTimer = 0f;
+    int shootIndex = 0;
+
+
 
     /// <summary>
     /// Start is called on the frame when a script is enabled just before
@@ -40,16 +43,29 @@ public class Weapon : MonoBehaviour
     /// </summary>
     void Update()
     {
+        if (ShootTransforms.Length == 0)
+            return;
+
         if (shootTimer <= 0f)
         {
             shootTimer = 1f / ShootPerSeconds;
-
-            var bullet = BulletPool.Get();
-            bullet.transform.position = ShootTransform.position;
-            bullet.transform.rotation = ShootTransform.rotation;
-            bullet.Remover.OnRemove.AddListener(() => BulletPool.Release(bullet));
+            Shoot();
         }
 
         shootTimer -= Time.deltaTime;
+    }
+
+    void Shoot()
+    {
+        var transform = ShootTransforms[shootIndex++];
+        if (shootIndex >= ShootTransforms.Length)
+        {
+            shootIndex = 0;
+        }
+
+        var bullet = BulletPool.Get();
+        bullet.transform.position = transform.position;
+        bullet.transform.rotation = transform.rotation;
+        bullet.Remover.OnRemove.AddListener(() => BulletPool.Release(bullet));
     }
 }
