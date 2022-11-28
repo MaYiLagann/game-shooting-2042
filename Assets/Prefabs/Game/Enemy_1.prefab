@@ -74,8 +74,10 @@ GameObject:
   - component: {fileID: 8631731158356074065}
   - component: {fileID: 2068390773597567570}
   - component: {fileID: 1189102555010263046}
+  - component: {fileID: 2149926270777984061}
   - component: {fileID: 8631731158356074064}
   - component: {fileID: 2296979323755408701}
+  - component: {fileID: 6827930112380123788}
   m_Layer: 0
   m_Name: Enemy_1
   m_TagString: Untagged
@@ -127,10 +129,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxRange: 200
-  DestroySelf: 0
+  DestroySelf: 1
   OnRemove:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2149926270777984061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8631731158356074066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e44e40a729c7d942b1231d218626738, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BulletPrefab: {fileID: 8112366119611811508, guid: aadb792f571f89c4f89433e4b213806a, type: 3}
+  ShootTransform: {fileID: 4577441146120339378}
+  ShootPerSeconds: 5
 --- !u!135 &8631731158356074064
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -164,6 +181,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!54 &6827930112380123788
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8631731158356074066}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1001 &3218795714329311727
 PrefabInstance:
   m_ObjectHideFlags: 0
