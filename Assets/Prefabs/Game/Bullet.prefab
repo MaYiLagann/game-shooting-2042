@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6852483707825003946}
   - component: {fileID: 8112366119611811508}
   - component: {fileID: 7565237954505438754}
+  - component: {fileID: 6372706927828640808}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -48,6 +49,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Damage: 1
   Speed: 100
+  BulletForceMode: 1
   MaxRange: 1000
   OnRelease:
     m_PersistentCalls:
@@ -65,6 +67,22 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.15
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &6372706927828640808
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6076263049323333392}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &8809784577439933075
 GameObject:
   m_ObjectHideFlags: 0
