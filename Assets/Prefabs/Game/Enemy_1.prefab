@@ -74,7 +74,6 @@ GameObject:
   - component: {fileID: 8631731158356074065}
   - component: {fileID: 2068390773597567570}
   - component: {fileID: 8631731158356074064}
-  - component: {fileID: 249212559696716820}
   - component: {fileID: 2296979323755408701}
   m_Layer: 0
   m_Name: Enemy_1
@@ -112,7 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57d334e428d15294faa24d06a6dd8da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovementSpeed: 1
+  MovementSpeed: 20
   StartHealth: 1
 --- !u!135 &8631731158356074064
 SphereCollider:
@@ -122,28 +121,10 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8631731158356074066}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 1.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!143 &249212559696716820
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8631731158356074066}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 2
-  m_Radius: 1.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &2296979323755408701
 Animator:
