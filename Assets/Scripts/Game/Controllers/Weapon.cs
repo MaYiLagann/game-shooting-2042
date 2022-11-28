@@ -4,13 +4,13 @@ using Sirenix.OdinInspector;
 
 public class Weapon : MonoBehaviour
 {
-    [TitleGroup("Shooting")]
     [AssetsOnly]
     public BulletController BulletPrefab;
     public IObjectPool<BulletController> BulletPool { get; set; }
     [ChildGameObjectsOnly]
     public Transform ShootTransform;
-    public float ShootDelay = 0f;
+    [MinValue(1)]
+    public int ShootPerSeconds = 1;
 
 
 
@@ -42,7 +42,7 @@ public class Weapon : MonoBehaviour
     {
         if (shootTimer <= 0f)
         {
-            shootTimer = ShootDelay;
+            shootTimer = 1f / ShootPerSeconds;
 
             var bullet = BulletPool.Get();
             bullet.transform.position = ShootTransform.position;
