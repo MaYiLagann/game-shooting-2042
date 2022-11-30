@@ -8,6 +8,8 @@ public class BulletController : MonoBehaviour
     public ForceMode BulletForceMode = ForceMode.Force;
 
     public DistanceRemover Remover;
+    // Todo: Create particle from outer object pool.
+    public GameObject ParticleDestroy;
 
 
 
@@ -45,6 +47,8 @@ public class BulletController : MonoBehaviour
         if (damageable != null)
         {
             damageable.Damage(Damage);
+
+            Instantiate(ParticleDestroy, transform.position, Quaternion.identity);
             Remover.Remove();
         }
     }
