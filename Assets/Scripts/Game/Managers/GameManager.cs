@@ -1,12 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public int Point = 0;
-
     public float PlayerMovementSpeed = 1f;
+
+
+
+    [NonSerialized]
+    public int Point = 0;
 
 
 
