@@ -26,8 +26,18 @@ public class Weapon : MonoBehaviour
     void Start()
     {
         BulletPool = new ObjectPool<BulletController>(
-            createFunc: () => Instantiate(BulletPrefab),
-            actionOnGet: bullet => bullet.gameObject.SetActive(true),
+            createFunc: () =>
+            {
+                var transform = GetShootTransform();
+                return Instantiate(BulletPrefab, transform.position, transform.rotation);
+            },
+            actionOnGet: bullet =>
+            {
+                var transform = GetShootTransform();
+                bullet.transform.position = transform.position;
+                bullet.transform.rotation = transform.rotation;
+                bullet.gameObject.SetActive(true);
+            },
             actionOnRelease: bullet =>
             {
                 bullet.Remover.OnRemove.RemoveAllListeners();
@@ -57,15 +67,16 @@ public class Weapon : MonoBehaviour
 
     void Shoot()
     {
+        var bullet = BulletPool.Get();
+        bullet.Remover.OnRemove.AddListener(() => BulletPool.Release(bullet));
+    }
+
+    Transform GetShootTransform()
+    {
         var transform = ShootTransforms[shootIndex++];
         if (shootIndex >= ShootTransforms.Length)
-        {
             shootIndex = 0;
-        }
 
-        var bullet = BulletPool.Get();
-        bullet.transform.position = transform.position;
-        bullet.transform.rotation = transform.rotation;
-        bullet.Remover.OnRemove.AddListener(() => BulletPool.Release(bullet));
+        return transform;
     }
 }
