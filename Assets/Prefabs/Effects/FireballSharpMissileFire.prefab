@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4316684772602470}
   - component: {fileID: 198790605771755608}
   - component: {fileID: 199130386116052586}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: FireGlowTrail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4764,7 +4764,7 @@ GameObject:
   - component: {fileID: 198238752495906700}
   - component: {fileID: 199491523992655760}
   - component: {fileID: 108978923377033198}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: FireballSharpMissileFire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9599,7 +9599,7 @@ GameObject:
   - component: {fileID: 4267287730304830}
   - component: {fileID: 198469119588430920}
   - component: {fileID: 199482888477593174}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: SmokeTrail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14342,7 +14342,7 @@ GameObject:
   - component: {fileID: 4778731914654764}
   - component: {fileID: 198360265695926576}
   - component: {fileID: 199146384150454866}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: SparkTrail
   m_TagString: Untagged
   m_Icon: {fileID: 0}

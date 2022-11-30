@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 495354}
   - component: {fileID: 19872520}
   - component: {fileID: 19995592}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: SparkTrail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4763,7 +4763,7 @@ GameObject:
   - component: {fileID: 454608}
   - component: {fileID: 19898402}
   - component: {fileID: 19924450}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9515,7 +9515,7 @@ GameObject:
   - component: {fileID: 438534}
   - component: {fileID: 19879398}
   - component: {fileID: 19995504}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: BulletSmallFire
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7565237954505438754}
   - component: {fileID: 6372706927828640808}
   m_Layer: 0
-  m_Name: Bullet_1
+  m_Name: Bullet_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Damage: 1
-  Speed: 100
+  Speed: 25
   BulletForceMode: 1
   Remover: {fileID: 5430911079167122133}
   ParticleDestroy: {fileID: 195742, guid: cb0f3356d571ad54bacdc8f5e3edd773, type: 3}
@@ -185,6 +185,30 @@ PrefabInstance:
     - target: {fileID: 438534, guid: 4743bdaa8d28e4b429ab3db78817c0bb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19872520, guid: 4743bdaa8d28e4b429ab3db78817c0bb, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19872520, guid: 4743bdaa8d28e4b429ab3db78817c0bb, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19872520, guid: 4743bdaa8d28e4b429ab3db78817c0bb, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19898402, guid: 4743bdaa8d28e4b429ab3db78817c0bb, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19898402, guid: 4743bdaa8d28e4b429ab3db78817c0bb, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19898402, guid: 4743bdaa8d28e4b429ab3db78817c0bb, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4743bdaa8d28e4b429ab3db78817c0bb, type: 3}

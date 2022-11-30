@@ -146,8 +146,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57d334e428d15294faa24d06a6dd8da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameManager: {fileID: 0}
   MovementSpeed: 15
-  StartHealth: 1
+  Point: 1
+  StartHealth: 10
 --- !u!114 &1189102555010263046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,11 +179,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e44e40a729c7d942b1231d218626738, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletPrefab: {fileID: 8112366119611811508, guid: aadb792f571f89c4f89433e4b213806a, type: 3}
+  BulletPrefab: {fileID: 8112366119611811508, guid: 37c194df4abac384ab9d9f66f47125ab, type: 3}
   ShootTransforms:
   - {fileID: 4577441146120339378}
   - {fileID: 3739954797389391510}
-  ShootPerSeconds: 5
+  ShootPerSeconds: 3
 --- !u!135 &8631731158356074064
 SphereCollider:
   m_ObjectHideFlags: 0
