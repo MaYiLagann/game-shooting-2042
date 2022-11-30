@@ -28,12 +28,15 @@ public class Weapon : MonoBehaviour
         BulletPool = new ObjectPool<BulletController>(
             createFunc: () =>
             {
-                var transform = GetShootTransform();
+                var transform = ShootTransforms[0];
                 return Instantiate(BulletPrefab, transform.position, transform.rotation);
             },
             actionOnGet: bullet =>
             {
-                var transform = GetShootTransform();
+                var transform = ShootTransforms[shootIndex++];
+                if (shootIndex >= ShootTransforms.Length)
+                    shootIndex = 0;
+
                 bullet.transform.position = transform.position;
                 bullet.transform.rotation = transform.rotation;
                 bullet.gameObject.SetActive(true);
@@ -69,14 +72,5 @@ public class Weapon : MonoBehaviour
     {
         var bullet = BulletPool.Get();
         bullet.Remover.OnRemove.AddListener(() => BulletPool.Release(bullet));
-    }
-
-    Transform GetShootTransform()
-    {
-        var transform = ShootTransforms[shootIndex++];
-        if (shootIndex >= ShootTransforms.Length)
-            shootIndex = 0;
-
-        return transform;
     }
 }
