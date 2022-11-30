@@ -45,6 +45,7 @@ public class BulletController : MonoBehaviour
         if (damageable != null)
         {
             damageable.Damage(Damage);
+            Remover.Remove();
         }
     }
 }
