@@ -1,9 +1,12 @@
 using System;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class GameManager : MonoBehaviour
 {
     public float PlayerMovementSpeed = 1f;
+
+    public UnityEvent OnValueChange;
 
 
 
@@ -15,5 +18,7 @@ public class GameManager : MonoBehaviour
     public void AddPoint(int point)
     {
         Point += point;
+
+        OnValueChange.Invoke();
     }
 }
