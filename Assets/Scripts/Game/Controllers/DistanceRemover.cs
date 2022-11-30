@@ -34,14 +34,21 @@ public class DistanceRemover : MonoBehaviour
         {
             transform.position = startPosition;
 
-            if (DestroySelf)
-            {
-                Destroy(gameObject);
-            }
-            else
-            {
-                OnRemove.Invoke();
-            }
+            Remove();
+        }
+    }
+
+
+
+    public void Remove()
+    {
+        if (DestroySelf)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            OnRemove.Invoke();
         }
     }
 }
