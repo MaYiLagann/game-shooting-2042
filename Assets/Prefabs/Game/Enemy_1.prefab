@@ -183,7 +183,7 @@ MonoBehaviour:
   ShootTransforms:
   - {fileID: 4577441146120339378}
   - {fileID: 3739954797389391510}
-  ShootPerSeconds: 3
+  ShootPerSeconds: 1
 --- !u!135 &8631731158356074064
 SphereCollider:
   m_ObjectHideFlags: 0
