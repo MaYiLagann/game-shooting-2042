@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 using Sirenix.OdinInspector;
 
 public class PlayerController : MonoBehaviour, IDamageable
@@ -21,12 +22,16 @@ public class PlayerController : MonoBehaviour, IDamageable
     public Animator PlayerAnimator;
     public string AnimationKeyMoveLeft = "MoveLeft";
     public string AnimationKeyMoveRight = "MoveRight";
+    public string AnimationKeyDead = "Dead";
 
     [TitleGroup("Damageable")]
     public int StartHealth = 100;
     public int Health { get; set; }
 
     public UnityEvent OnDamage { get; } = new UnityEvent();
+
+    [TitleGroup("Weapon")]
+    public Weapon Weapon;
 
 
 
@@ -44,18 +49,42 @@ public class PlayerController : MonoBehaviour, IDamageable
     /// </summary>
     void Update()
     {
-        var move = new Vector3(Input.GetAxis(InputAxisHorizontal), 0, Input.GetAxis(InputAxisVertical));
+        if (Health > 0)
+        {
+            var move = new Vector3(Input.GetAxis(InputAxisHorizontal), 0, Input.GetAxis(InputAxisVertical));
 
-        PlayerCharacterController.Move(move * Time.deltaTime * MovementSpeed);
+            PlayerCharacterController.Move(move * Time.deltaTime * MovementSpeed);
 
-        PlayerAnimator.SetBool(AnimationKeyMoveLeft, move.x < 0f);
-        PlayerAnimator.SetBool(AnimationKeyMoveRight, move.x > 0f);
+            PlayerAnimator.SetBool(AnimationKeyMoveLeft, move.x < 0f);
+            PlayerAnimator.SetBool(AnimationKeyMoveRight, move.x > 0f);
+        }
+        else
+        {
+            if (Input.anyKey)
+            {
+                SceneManager.LoadScene(gameObject.scene.name);
+            }
+        }
     }
 
     public void Damage(int damage)
     {
-        Health -= damage;
+        if (Health > damage)
+        {
+            Health -= damage;
+        }
+        else
+        {
+            Health = 0;
+            Die();
+        }
 
         OnDamage.Invoke();
+    }
+
+    public void Die()
+    {
+        Weapon.enabled = false;
+        PlayerAnimator.SetTrigger(AnimationKeyDead);
     }
 }

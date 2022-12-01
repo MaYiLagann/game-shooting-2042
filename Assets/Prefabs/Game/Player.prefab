@@ -121,7 +121,9 @@ MonoBehaviour:
   PlayerAnimator: {fileID: 2296979323755408701}
   AnimationKeyMoveLeft: MoveLeft
   AnimationKeyMoveRight: MoveRight
-  StartHealth: 100
+  AnimationKeyDead: Dead
+  StartHealth: 10
+  Weapon: {fileID: 1868308962499639448}
 --- !u!114 &1868308962499639448
 MonoBehaviour:
   m_ObjectHideFlags: 0

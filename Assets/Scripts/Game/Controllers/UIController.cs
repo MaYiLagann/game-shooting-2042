@@ -9,6 +9,7 @@ public class UIController : MonoBehaviour
 
     public TMP_Text TextPoint;
     public Slider SliderHealth;
+    public GameObject GameOver;
 
 
 
@@ -36,11 +37,13 @@ public class UIController : MonoBehaviour
     void OnDestroy()
     {
         GameManager.OnValueChange.RemoveListener(UpdateUI);
+        PlayerController.OnDamage.RemoveListener(UpdateUI);
     }
 
     void UpdateUI()
     {
         TextPoint.SetText(GameManager.Point.ToString());
         SliderHealth.value = (float)PlayerController.Health / PlayerController.StartHealth;
+        GameOver.SetActive(PlayerController.Health <= 0);
     }
 }
