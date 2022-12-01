@@ -54,6 +54,9 @@ public class GameManager : MonoBehaviour
 
     public void EnemySpawn()
     {
+        if (EnemySpawnArea == null)
+            return;
+
         var spawnPosition = new Vector3(
             Random.Range(-EnemySpawnArea.localScale.x, EnemySpawnArea.localScale.x) + EnemySpawnArea.position.x,
             Random.Range(-EnemySpawnArea.localScale.y, EnemySpawnArea.localScale.y) + EnemySpawnArea.position.y,
