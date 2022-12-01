@@ -1106,7 +1106,7 @@ MonoBehaviour:
   ListPrefabEnemy:
   - {fileID: 2068390773597567570, guid: 7b38444650a0b7246bc9b5699312248d, type: 3}
   EnemySpawnArea: {fileID: 255262144}
-  EnemySpawnDelay: {x: 0.5, y: 3}
+  EnemySpawnDelay: {x: 0.5, y: 1.5}
   OnValueChange:
     m_PersistentCalls:
       m_Calls: []
