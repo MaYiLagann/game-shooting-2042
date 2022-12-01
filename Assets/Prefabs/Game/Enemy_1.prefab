@@ -149,7 +149,7 @@ MonoBehaviour:
   GameManager: {fileID: 0}
   MovementSpeed: 15
   Point: 1
-  StartHealth: 10
+  StartHealth: 5
 --- !u!114 &1189102555010263046
 MonoBehaviour:
   m_ObjectHideFlags: 0
