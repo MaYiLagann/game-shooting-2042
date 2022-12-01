@@ -58,9 +58,9 @@ public class GameManager : MonoBehaviour
             return;
 
         var spawnPosition = new Vector3(
-            Random.Range(-EnemySpawnArea.localScale.x, EnemySpawnArea.localScale.x) + EnemySpawnArea.position.x,
-            Random.Range(-EnemySpawnArea.localScale.y, EnemySpawnArea.localScale.y) + EnemySpawnArea.position.y,
-            Random.Range(-EnemySpawnArea.localScale.z, EnemySpawnArea.localScale.z) + EnemySpawnArea.position.z
+            Random.Range(-EnemySpawnArea.lossyScale.x, EnemySpawnArea.lossyScale.x) + EnemySpawnArea.position.x,
+            Random.Range(-EnemySpawnArea.lossyScale.y, EnemySpawnArea.lossyScale.y) + EnemySpawnArea.position.y,
+            Random.Range(-EnemySpawnArea.lossyScale.z, EnemySpawnArea.lossyScale.z) + EnemySpawnArea.position.z
         );
 
         var enemyPrefab = ListPrefabEnemy[Random.Range(0, ListPrefabEnemy.Count)];
