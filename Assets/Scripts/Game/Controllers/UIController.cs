@@ -1,11 +1,14 @@
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class UIController : MonoBehaviour
 {
     public GameManager GameManager;
+    public PlayerController PlayerController;
 
     public TMP_Text TextPoint;
+    public Slider SliderHealth;
 
 
 
@@ -15,7 +18,15 @@ public class UIController : MonoBehaviour
     void Awake()
     {
         GameManager.OnValueChange.AddListener(UpdateUI);
+        PlayerController.OnDamage.AddListener(UpdateUI);
+    }
 
+    /// <summary>
+    /// Start is called on the frame when a script is enabled just before
+    /// any of the Update methods is called the first time.
+    /// </summary>
+    void Start()
+    {
         UpdateUI();
     }
 
@@ -30,5 +41,6 @@ public class UIController : MonoBehaviour
     void UpdateUI()
     {
         TextPoint.SetText(GameManager.Point.ToString());
+        SliderHealth.value = (float)PlayerController.Health / PlayerController.StartHealth;
     }
 }
