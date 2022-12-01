@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: TitleScene Main Camera Blur Config
   m_EditorClassIdentifier: 
   radius: 1
-  iteration: 4
+  iteration: 3
   maxDepth: 6
-  strength: 16
+  strength: 8
