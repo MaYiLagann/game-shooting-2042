@@ -48,6 +48,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2243645ce40fa7b4c94292fb8e647a1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CollisionIgnoreTags:
+  - Enemy
   Damage: 1
   Speed: 30
   BulletForceMode: 1

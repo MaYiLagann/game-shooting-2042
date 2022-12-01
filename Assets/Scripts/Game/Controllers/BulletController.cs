@@ -1,8 +1,11 @@
+using System.Linq;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
 public class BulletController : MonoBehaviour
 {
+    public string[] CollisionIgnoreTags;
+
     public int Damage = 1;
     public float Speed = 1f;
     public ForceMode BulletForceMode = ForceMode.Force;
@@ -44,7 +47,7 @@ public class BulletController : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         var damageable = other.GetComponent<IDamageable>();
-        if (damageable != null)
+        if (damageable != null && !CollisionIgnoreTags.Contains(damageable.Tag))
         {
             damageable.Damage(Damage);
 

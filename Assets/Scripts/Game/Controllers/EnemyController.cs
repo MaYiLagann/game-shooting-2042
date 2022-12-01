@@ -15,6 +15,7 @@ public class EnemyController : MonoBehaviour, IDamageable
     [TitleGroup("Damageable")]
     public int StartHealth = 1;
     public int Health { get; set; }
+    public string Tag => gameObject.tag;
 
     public UnityEvent OnDamage { get; } = new UnityEvent();
 

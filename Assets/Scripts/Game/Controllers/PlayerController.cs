@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour, IDamageable
     [TitleGroup("Damageable")]
     public int StartHealth = 100;
     public int Health { get; set; }
+    public string Tag => gameObject.tag;
 
     public UnityEvent OnDamage { get; } = new UnityEvent();
 
