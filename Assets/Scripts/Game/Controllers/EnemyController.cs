@@ -1,6 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using Sirenix.OdinInspector;
 
 public class EnemyController : MonoBehaviour, IDamageable
@@ -16,6 +15,8 @@ public class EnemyController : MonoBehaviour, IDamageable
     [TitleGroup("Damageable")]
     public int StartHealth = 1;
     public int Health { get; set; }
+
+    public UnityEvent OnDamage { get; } = new UnityEvent();
 
 
 
@@ -49,6 +50,8 @@ public class EnemyController : MonoBehaviour, IDamageable
             Health = 0;
             Die();
         }
+
+        OnDamage.Invoke();
     }
 
     public void Die()

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 using Sirenix.OdinInspector;
 
 public class PlayerController : MonoBehaviour, IDamageable
@@ -24,6 +25,8 @@ public class PlayerController : MonoBehaviour, IDamageable
     [TitleGroup("Damageable")]
     public int StartHealth = 100;
     public int Health { get; set; }
+
+    public UnityEvent OnDamage { get; } = new UnityEvent();
 
 
 
@@ -52,5 +55,7 @@ public class PlayerController : MonoBehaviour, IDamageable
     public void Damage(int damage)
     {
         Health -= damage;
+
+        OnDamage.Invoke();
     }
 }
